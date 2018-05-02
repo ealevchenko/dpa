@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ckis_Close" xml:space="preserve">
+    <value>Состав перенесен</value>
+  </data>
+  <data name="ckis_CountNatHIist" xml:space="preserve">
+    <value>Кол. таблица PROM.NAT_HIST</value>
+  </data>
+  <data name="ckis_CountSetNatHIist" xml:space="preserve">
+    <value>Обновлено из PROM.NAT_HIST</value>
+  </data>
+  <data name="ckis_CountSetWagons" xml:space="preserve">
+    <value>Поставленно на путь из PROM.VAGON</value>
+  </data>
+  <data name="ckis_CountWagons" xml:space="preserve">
+    <value>Кол. таблица PROM.VAGON</value>
+  </data>
+  <data name="ckis_datatime" xml:space="preserve">
+    <value>Дата и время прибытия состава</value>
+  </data>
+  <data name="ckis_NaturNum" xml:space="preserve">
+    <value>Натурный лист</value>
+  </data>
+  <data name="ckis_Station" xml:space="preserve">
+    <value>Станция прибытия</value>
+  </data>
+  <data name="ckis_WayName" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="ckis_Status" xml:space="preserve">
+    <value>Статус строки</value>
+  </data>
+  <data name="descriptonWeb" xml:space="preserve">
+    <value>Контроль движения подвижного состава АМКР</value>
+  </data>
+  <data name="linkAdmin1" xml:space="preserve">
+    <value>Предоставление доступа</value>
+  </data>
+  <data name="linkAdmin2" xml:space="preserve">
+    <value>Список станций</value>
+  </data>
+  <data name="linkAdmin3" xml:space="preserve">
+    <value>Список путей</value>
+  </data>
+  <data name="linkAdmin4" xml:space="preserve">
+    <value>Мониторинг копирования данных из КИС (по заходу поездов на АМКР)</value>
+  </data>
+  <data name="linkAdmin5" xml:space="preserve">
+    <value>Мониторинг копирования данных из КИС (с внутренних станций по прибытию)</value>
+  </data>
+  <data name="linkAdmin6" xml:space="preserve">
+    <value>Мониторинг копирования данных из КИС (с внутренних станций по отправке)</value>
+  </data>
+  <data name="mmAdmin" xml:space="preserve">
+    <value>Администрирование</value>
+  </data>
+  <data name="mmContact" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="mmInstructions" xml:space="preserve">
+    <value>Инструкции</value>
+  </data>
+  <data name="mmReport" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="nameWeb" xml:space="preserve">
+    <value>RailWay</value>
+  </data>
+  <data name="pinstructions1_1" xml:space="preserve">
+    <value>Для получения доступа к приложению вам необходимо подать</value>
+  </data>
+  <data name="pinstructions1_2" xml:space="preserve">
+    <value>заявку</value>
+  </data>
+  <data name="pinstructions1_3" xml:space="preserve">
+    <value>На первом шаге формирования заявки, укажите необходимые данные (Email, Ф.И.О.,должность, департамент или цех)</value>
+  </data>
+  <data name="pinstructions1_4" xml:space="preserve">
+    <value>На втором шаге формирования заявки, укажите Web-сайт, как показано ниже, и отправьте запрос.</value>
+  </data>
+  <data name="pinstructions1_5" xml:space="preserve">
+    <value>О результате согласования и предоставления доступа вам будет отправлено письмо на ваш Email</value>
+  </data>
+  <data name="titleAdmin" xml:space="preserve">
+    <value>Администрирование web-приложения</value>
+  </data>
+  <data name="titleContact" xml:space="preserve">
+    <value>Свяжитесь с нами ниже!</value>
+  </data>
+  <data name="titleContact1" xml:space="preserve">
+    <value>Административная поддержка (предоставление доступа, настройка web-приложения)</value>
+  </data>
+  <data name="titleContact2" xml:space="preserve">
+    <value>Техническая поддержка (Ошибки, администрирование базы данных, разработка web-приложения)</value>
+  </data>
+  <data name="titleInstructions" xml:space="preserve">
+    <value>Инструкции</value>
+  </data>
+  <data name="titleInstructions1" xml:space="preserve">
+    <value>#1: Доступ к Web-приложению</value>
+  </data>
+  <data name="titleInstructions2" xml:space="preserve">
+    <value>#2: Инструкция</value>
+  </data>
+  <data name="titleInstructions3" xml:space="preserve">
+    <value>#3: Инструкция</value>
+  </data>
+  <data name="textcontrolDatetime" xml:space="preserve">
+    <value>Период формирования отчета :</value>
+  </data>
+  <data name="ckis_CountSetWagonsInpDoc" xml:space="preserve">
+    <value>Поставленно на путь из NUM_VAG.STPR1_IN_ST_VAG</value>
+  </data>
+  <data name="ckis_CountWagonsDoc" xml:space="preserve">
+    <value>количество вагонов по документам</value>
+  </data>
+  <data name="ckis_DocNum" xml:space="preserve">
+    <value>№ Документа</value>
+  </data>
+  <data name="ckis_ReceiverStation" xml:space="preserve">
+    <value>Ожидается прибытие на станцию</value>
+  </data>
+  <data name="ckis_SenderStation" xml:space="preserve">
+    <value>Отправлен со станции</value>
+  </data>
+  <data name="ckis_SenderWayName" xml:space="preserve">
+    <value>с пути</value>
+  </data>
+  <data name="ckis_CountSetWagonsOutDoc" xml:space="preserve">
+    <value>Поставленно на путь из NUM_VAG.STPR1_OUT_ST_DOC</value>
+  </data>
+  <data name="ckis_CountUpdareWagons" xml:space="preserve">
+    <value>Полностью обновлена информация из КИС</value>
+  </data>
+  <data name="ckis_ReceiverWayName" xml:space="preserve">
+    <value>на путь</value>
+  </data>
+  <data name="cmt_Cargo" xml:space="preserve">
+    <value>Груз</value>
+  </data>
+  <data name="cmt_CarriageNumber" xml:space="preserve">
+    <value>№ вагона</value>
+  </data>
+  <data name="cmt_CompositionIndex" xml:space="preserve">
+    <value>Индекс состава</value>
+  </data>
+  <data name="cmt_Consignee" xml:space="preserve">
+    <value>Грузополучатель</value>
+  </data>
+  <data name="cmt_CountryCode" xml:space="preserve">
+    <value>Код страны</value>
+  </data>
+  <data name="cmt_DateOperation" xml:space="preserve">
+    <value>Дата операции</value>
+  </data>
+  <data name="cmt_IDCargo" xml:space="preserve">
+    <value>Код груза</value>
+  </data>
+  <data name="cmt_IDStation" xml:space="preserve">
+    <value>Код станции</value>
+  </data>
+  <data name="cmt_Operation" xml:space="preserve">
+    <value>Операция</value>
+  </data>
+  <data name="cmt_Position" xml:space="preserve">
+    <value>№п.п</value>
+  </data>
+  <data name="cmt_Station" xml:space="preserve">
+    <value>Станция</value>
+  </data>
+  <data name="cmt_TrainNumber" xml:space="preserve">
+    <value>№ поезда</value>
+  </data>
+  <data name="cmt_Weight" xml:space="preserve">
+    <value>Вес(т)</value>
+  </data>
+  <data name="cmt_NaturList" xml:space="preserve">
+    <value>КИС № НЛ</value>
+  </data>
+  <data name="ckis_ListNoUpdateWagonss" xml:space="preserve">
+    <value>Ошибки обновления по вагонам</value>
+  </data>
+</root>

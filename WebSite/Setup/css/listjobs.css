@@ -1,0 +1,197 @@
+﻿.link {
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #666666;
+    font-weight: bold;
+}
+/*.listRequests {
+    clear: left;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto; 
+    float: left; 
+    margin: 0px 30px 0px 0px; 
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.DetaliRequests {
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto;
+    float: left; 
+    margin: 0px 5px 0px 0px; 
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+    .divDetali:empty {
+    display: none;
+    background-color: #00FF00;
+}
+.clear{
+    
+    margin-bottom: 20px;
+}
+*/
+/* Стили таблицы tablistjobs*/
+table.tablistjobs {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: 1350px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tablistjobs th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tablistjobs th a {
+    color: #0000FF;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+.tablistjobs td {
+    padding: 5px;
+    border: 1px solid #999999;
+    text-align: center;
+}
+
+.tablistjobs tr.item {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.tablistjobs tr.select {
+    background-color: #999999;
+    color: #FFFFFF;
+}
+.tablistjobs tr.edit {
+    background-color: #9999FF;
+    color: #FFFFFF;
+}
+
+tr.select a {
+    color: #FFFFFF;
+}
+.tablistjobs th.upr {
+    width: 100px;
+}
+.tablistjobs th.Description {
+    width: 300px;
+}
+.tablistjobs th.Enable {
+    width: 50px;
+}
+.tablistjobs th.Metod {
+    width: 100px;
+}
+.tablistjobs th.Start {
+    width: 200px;
+}
+.tablistjobs th.Stop {
+    width: 200px;
+}
+.tablistjobs th.Cron {
+    width: 100px;
+}
+.tablistjobs th.DistributionList {
+    width: 300px;
+}
+.tablistjobs td.upr {
+    text-align: center;
+}
+.tablistjobs td.Description {
+    text-align: left;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.tablistjobs td.Enable {
+
+}
+.tablistjobs td.Metod {
+
+}
+.tablistjobs td.Start {
+
+}
+.tablistjobs td.Stop {
+
+}
+.tablistjobs td.Cron {
+
+}
+.tablistjobs td.DistributionList {
+    margin: 5px;
+    text-align: left; /*word-wrap:break-word;*/
+}
+/**/
+table.addjob {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.addjob th{
+    padding: 5px 10px 5px 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: right;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+    width: 200px;
+}
+.addjob td{
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: left;
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.addjob th.upr {
+    text-align: left;
+}
+
+span b {
+    text-transform: uppercase;
+    color: #0066FF;
+    text-decoration: underline;
+}
+
+span ul {
+    padding: 20px;
+}
+
+.LineText {
+    width: 85%;
+}
+.MultiText {
+    width: 98%;
+    height: 100px;
+}
+.tvMultiText {
+    width: 98%;
+    height: 50px;
+}
+
+
+ 
+

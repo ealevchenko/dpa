@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bokiy" xml:space="preserve">
+    <value>Бокий А.В.</value>
+  </data>
+  <data name="Burak" xml:space="preserve">
+    <value>Бурак А.В.</value>
+  </data>
+  <data name="Leutskiy" xml:space="preserve">
+    <value>Леутский А.В.</value>
+  </data>
+  <data name="Levchenko" xml:space="preserve">
+    <value>Левченко Э.А.</value>
+  </data>
+  <data name="post1" xml:space="preserve">
+    <value>Начальник службы</value>
+  </data>
+  <data name="post2" xml:space="preserve">
+    <value>Начальник отдела</value>
+  </data>
+  <data name="post3" xml:space="preserve">
+    <value>Ведуший инженер</value>
+  </data>
+  <data name="post4" xml:space="preserve">
+    <value>Руководитель проектов и программ</value>
+  </data>
+  <data name="Romanets" xml:space="preserve">
+    <value>Романец А.Р.</value>
+  </data>
+  <data name="Savenkov" xml:space="preserve">
+    <value>Савенков А.С.</value>
+  </data>
+  <data name="section1" xml:space="preserve">
+    <value>Руководство службы</value>
+  </data>
+  <data name="section11" xml:space="preserve">
+    <value>разработка стратегических планов внедрения и модернизации АСУТП</value>
+  </data>
+  <data name="section12" xml:space="preserve">
+    <value>разработка типовых технических требований и другой нормативной документации на внедряемые АСУТП;</value>
+  </data>
+  <data name="section13" xml:space="preserve">
+    <value>планирование ежегодного САРЕХ ДАТП;</value>
+  </data>
+  <data name="section14" xml:space="preserve">
+    <value>подготовка обоснований на внедрение мероприятий;</value>
+  </data>
+  <data name="section15" xml:space="preserve">
+    <value>контроль и анализ  эффективности процедуры и разработка мероприятий по ее совершенствованию;</value>
+  </data>
+  <data name="section16" xml:space="preserve">
+    <value>внедрение общей стратегии развития АСУТП на предприятии АМКР.</value>
+  </data>
+  <data name="section2" xml:space="preserve">
+    <value>Отдел промышленных систем автоматизации</value>
+  </data>
+  <data name="section21" xml:space="preserve">
+    <value>разработка и сопровождение программного обеспечения контроллеров АСУТП внедряемых проектов;</value>
+  </data>
+  <data name="section22" xml:space="preserve">
+    <value>разработка и сопровождение СКАДА систем АСУТП внедряемых проектов;</value>
+  </data>
+  <data name="section23" xml:space="preserve">
+    <value>разработка и сопровождение ПО на языках высокого уровня (C#, С++, Delphi), с применением технологий ASP.Net, ADO.Net;</value>
+  </data>
+  <data name="section24" xml:space="preserve">
+    <value>разработка, настройка и сопровождение технологических  серверов АСУТП внедряемых проектов;</value>
+  </data>
+  <data name="section25" xml:space="preserve">
+    <value>администрирование и программирование MS SQL Server-ов АСУТП внедряемых проектов;</value>
+  </data>
+  <data name="section26" xml:space="preserve">
+    <value>разработка технической и технологической документации на внедренную систему АСУТП;</value>
+  </data>
+  <data name="section27" xml:space="preserve">
+    <value>техническое сопровождение внедрённых АСУТП (корректировка ПО в процессе эксплуатации);</value>
+  </data>
+  <data name="section3" xml:space="preserve">
+    <value>Руководители проектов и программ службы</value>
+  </data>
+  <data name="section31" xml:space="preserve">
+    <value>разработка и согласование ТЗ на объект;</value>
+  </data>
+  <data name="section32" xml:space="preserve">
+    <value>контроль за соблюдением общей стратегии внедрения систем АСУТП на объекте;</value>
+  </data>
+  <data name="section33" xml:space="preserve">
+    <value>анализ ТКП участников тендера, выдача рекомендаций;</value>
+  </data>
+  <data name="section34" xml:space="preserve">
+    <value>участие в процедуре разработки матриц ответственности между подрядчиком и АМКР в части внедрения АСУТП на этапе заключения договора;</value>
+  </data>
+  <data name="section35" xml:space="preserve">
+    <value>контроль и сопровождение разработки проектной документации в части ее соответствия ТТ;</value>
+  </data>
+  <data name="section36" xml:space="preserve">
+    <value>участие в  совещаниях в процессе внедрения АСУТП с различными службами АМКР;</value>
+  </data>
+  <data name="section37" xml:space="preserve">
+    <value>обеспечение выполнения процедур принятия систем в промышленную эксплуатацию</value>
+  </data>
+  <data name="Shidlovskiy" xml:space="preserve">
+    <value>Шидловский Н.А.</value>
+  </data>
+  <data name="Stryukachev" xml:space="preserve">
+    <value>Стрюкачев К.А.</value>
+  </data>
+  <data name="Telegin" xml:space="preserve">
+    <value>Телегин А.А.</value>
+  </data>
+  <data name="title1" xml:space="preserve">
+    <value>Служба</value>
+  </data>
+  <data name="title2" xml:space="preserve">
+    <value>по стратегическому развитию и внедрению АСУТП</value>
+  </data>
+  <data name="Vasilenko" xml:space="preserve">
+    <value>Василенко И.А.</value>
+  </data>
+</root>

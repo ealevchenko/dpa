@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Strategic.master.cs" Inherits="StrategicMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function LockScreen(message) {
+            var lock = document.getElementById('lockPane');
+            if (lock)
+                lock.className = 'LockOn';
+            lock.innerHTML = message;
+        }
+    </script>
+    <link href="css/strategicmaster.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server" defaultbutton="btnEnter">
+        <asp:Button ID="btnEnter" runat="server" OnClientClick="return false;" Style="visibility: hidden; position: absolute" Text="Button" />
+        <div id="lockPane" class="LockOff"></div>
+        <div class="container">
+            <div class="header">
+                <a href="Default.aspx">
+                    <strong>&laquo;<asp:Literal ID="Literal2" runat="server" Text="<%$ Resources:Resource, menu %>"></asp:Literal></strong>
+                    <asp:Literal ID="Literal3" runat="server" Text="<%$ Resources:Resource, mesStrategic %>"></asp:Literal></a>
+                <span class="right">
+                    <strong>
+                        <asp:Label ID="lbLanguage" runat="server" Text="<%$ Resources:Resource, Language %>"></asp:Label></strong>
+                    <asp:DropDownList ID="Language1" runat="server" AutoPostBack="True" SelectedValue='<%$ Resources:Resource, Culture %>'>
+                        <asp:ListItem Value="ru-RU">Russian (RU)</asp:ListItem>
+                        <asp:ListItem Value="en-US">English (US)</asp:ListItem>
+                    </asp:DropDownList>
+                    <a href="mailto:Eduard.Levchenko@arcelormittal.com">
+                        <asp:Literal ID="Literal4" runat="server" Text="<%$ Resources:Resource, FooterEmail %>"></asp:Literal></a>
+                </span>
+                <div class="clr"></div>
+            </div>
+            <h1>
+                <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
+                <span>
+                    <asp:Literal ID="ltDescription" runat="server"></asp:Literal></span>
+            </h1>
+            <div class="content">
+                <div id="error">
+                    <span class="failureNotification">
+                        <asp:Literal ID="ErrorMessage" runat="server"></asp:Literal>
+                    </span>
+                </div>
+                <div id="info">
+                    <span class="infoNotification">
+                        <asp:Literal ID="InfoMessage" runat="server"></asp:Literal>
+                    </span>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mes_err_0" xml:space="preserve">
+    <value>Ошибка: {0}</value>
+  </data>
+  <data name="mes_err_1" xml:space="preserve">
+    <value>Критическая ошибка: {0}. Операция отменена</value>
+  </data>
+  <data name="mes_err_1000" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списка Web-сайтов.</value>
+  </data>
+  <data name="mes_err_10000" xml:space="preserve">
+    <value>Ошибка: {0}, не указана страница из списка сайтов Web-сервера.</value>
+  </data>
+  <data name="mes_err_10001" xml:space="preserve">
+    <value>Ошибка: {0}, не указан URL адрес страницы сайта.</value>
+  </data>
+  <data name="mes_err_10002" xml:space="preserve">
+    <value>Ошибка: {0}, не указан Web-сайт.</value>
+  </data>
+  <data name="mes_err_10003" xml:space="preserve">
+    <value>Ошибка: {0}, не указан пользователь.</value>
+  </data>
+  <data name="mes_err_10004" xml:space="preserve">
+    <value>Ошибка: {0}, не указана группа доступа.</value>
+  </data>
+  <data name="mes_err_10005" xml:space="preserve">
+    <value>Ошибка: {0}, не указан пользователь или группа доступа.</value>
+  </data>
+  <data name="mes_err_10006" xml:space="preserve">
+    <value>Ошибка: {0}, не указана строка карты сайта.</value>
+  </data>
+  <data name="mes_err_10007" xml:space="preserve">
+    <value>Ошибка: {0}, не указано структурное подразделение.</value>
+  </data>
+  <data name="mes_err_10008" xml:space="preserve">
+    <value>Ошибка: {0}, не указан владелец строки меню.</value>
+  </data>
+  <data name="mes_err_10009" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное описание сайта.</value>
+  </data>
+  <data name="mes_err_1001" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списка пользователей.</value>
+  </data>
+  <data name="mes_err_10010" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное описание сайта.</value>
+  </data>
+  <data name="mes_err_10011" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное название меню.</value>
+  </data>
+  <data name="mes_err_10012" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное название меню.</value>
+  </data>
+  <data name="mes_err_10013" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное описание меню.</value>
+  </data>
+  <data name="mes_err_10014" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное описание меню.</value>
+  </data>
+  <data name="mes_err_10015" xml:space="preserve">
+    <value>Ошибка: {0}, не определена защита строки карты сайта.</value>
+  </data>
+  <data name="mes_err_10016" xml:space="preserve">
+    <value>Ошибка: {0}, не определено сотояние запуска страницы карты сайта.</value>
+  </data>
+  <data name="mes_err_10017" xml:space="preserve">
+    <value>Ошибка: {0}, не указано имя таблицы.</value>
+  </data>
+  <data name="mes_err_10018" xml:space="preserve">
+    <value>Ошибка: {0}, не указано поле таблицы.</value>
+  </data>
+  <data name="mes_err_10019" xml:space="preserve">
+    <value>Ошибка: {0}, не указана строка защиты карты сайта.</value>
+  </data>
+  <data name="mes_err_1002" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списка групп доступа.</value>
+  </data>
+  <data name="mes_err_10020" xml:space="preserve">
+    <value>Ошибка: {0}, не указан код защиты.</value>
+  </data>
+  <data name="mes_err_10021" xml:space="preserve">
+    <value>Ошибка: {0}, не указано имя файла.</value>
+  </data>
+  <data name="mes_err_10022" xml:space="preserve">
+    <value>Ошибка: {0}, не указан тип файла.</value>
+  </data>
+  <data name="mes_err_10023" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное описание основного шага.</value>
+  </data>
+  <data name="mes_err_10024" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное описание основного шага.</value>
+  </data>
+  <data name="mes_err_10025" xml:space="preserve">
+    <value>Ошибка: {0}, не указан основной шаг внедрения проектов.</value>
+  </data>
+  <data name="mes_err_10026" xml:space="preserve">
+    <value>Ошибка: {0}, не указан шаблон внедрения проектов.</value>
+  </data>
+  <data name="mes_err_10027" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное описание детального шага внедрения проекта.</value>
+  </data>
+  <data name="mes_err_10028" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное описание детального шага внедрения проекта.</value>
+  </data>
+  <data name="mes_err_10029" xml:space="preserve">
+    <value>Ошибка: {0}, не указан детальный шаг внедрения проектов.</value>
+  </data>
+  <data name="mes_err_1003" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списка сайтов Web-сервера.</value>
+  </data>
+  <data name="mes_err_10030" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует русскоязычное название типа проекта.</value>
+  </data>
+  <data name="mes_err_10031" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует англоязычное название типа проекта.</value>
+  </data>
+  <data name="mes_err_10032" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует русскоязычное описание типа проекта.</value>
+  </data>
+  <data name="mes_err_10033" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует англоязычное описание типа проекта.</value>
+  </data>
+  <data name="mes_err_10034" xml:space="preserve">
+    <value>Ошибка: {0}, не указан тип проекта.</value>
+  </data>
+  <data name="mes_err_10035" xml:space="preserve">
+    <value>Ошибка: {0}, не указан менеджер проекта.</value>
+  </data>
+  <data name="mes_err_10036" xml:space="preserve">
+    <value>Ошибка: {0}, не определен статус менеджера проекта.</value>
+  </data>
+  <data name="mes_err_1004" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица карта сайтов.</value>
+  </data>
+  <data name="mes_err_1005" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списка структурных подразделений.</value>
+  </data>
+  <data name="mes_err_1006" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица доступа к карте сайта</value>
+  </data>
+  <data name="mes_err_1007" xml:space="preserve">
+    <value>Ошибка: {0}, указанная таблица отсутствует.</value>
+  </data>
+  <data name="mes_err_1008" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица для хранения файлов.</value>
+  </data>
+  <data name="mes_err_1009" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица для хранения основных шагов проекта.</value>
+  </data>
+  <data name="mes_err_1010" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица для хранения детальных шагов проекта.</value>
+  </data>
+  <data name="mes_err_1011" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица для хранения шаблонов внедрения проектов.</value>
+  </data>
+  <data name="mes_err_1012" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица хранения всех детальных шагов проектов.</value>
+  </data>
+  <data name="mes_err_1013" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица типов проектов.</value>
+  </data>
+  <data name="mes_err_1014" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списков проектов внедряемых службой.</value>
+  </data>
+  <data name="mes_err_1015" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списков менеджеров проектов.</value>
+  </data>
+  <data name="mes_err_2" xml:space="preserve">
+    <value>Критическая ошибка: {0} при установке защиты на строку карты сайта. Операция отменена.</value>
+  </data>
+  <data name="mes_err_20000" xml:space="preserve">
+    <value>Ошибка: {0}, указанный сайт отсутствует в списке сайтов Web-сервера.</value>
+  </data>
+  <data name="mes_err_20001" xml:space="preserve">
+    <value>Ошибка: {0}, сайт с указанным URL уже существует в списке сайтов Web-сервера.</value>
+  </data>
+  <data name="mes_err_20002" xml:space="preserve">
+    <value>Ошибка: {0}, указанный пользователь отсутствует в списке пользователей.</value>
+  </data>
+  <data name="mes_err_20003" xml:space="preserve">
+    <value>Ошибка: {0}, указанная группа доступа отсутствует в списке групп доступа.</value>
+  </data>
+  <data name="mes_err_20004" xml:space="preserve">
+    <value>Ошибка: {0}, указанный Web-сайт отсутствует в списке Web-сервера.</value>
+  </data>
+  <data name="mes_err_20005" xml:space="preserve">
+    <value>Ошибка: {0}, указанное подразделение отсутствует в списке.</value>
+  </data>
+  <data name="mes_err_20006" xml:space="preserve">
+    <value>Ошибка: {0}, указанная строка карты сайта отсутствует в списке.</value>
+  </data>
+  <data name="mes_err_20007" xml:space="preserve">
+    <value>Ошибка: {0}, указанное родительское меню отсутствует в списке.</value>
+  </data>
+  <data name="mes_err_20008" xml:space="preserve">
+    <value>Ошибка: {0}, указанный владелец строки карты сайта отсутствует в списке.</value>
+  </data>
+  <data name="mes_err_20009" xml:space="preserve">
+    <value>Ошибка: {0}, пользователь или группа доступа с таким именем уже существуют.</value>
+  </data>
+  <data name="mes_err_20010" xml:space="preserve">
+    <value>Ошибка: {0}, пользователь не принадлежит к выбранной группе.</value>
+  </data>
+  <data name="mes_err_20011" xml:space="preserve">
+    <value>Ошибка: {0}, пользователь уже принадлежит к выбранной группе.</value>
+  </data>
+  <data name="mes_err_20012" xml:space="preserve">
+    <value>Ошибка: {0}, сначала удалите ссылки из карты сайтов.</value>
+  </data>
+  <data name="mes_err_20013" xml:space="preserve">
+    <value>Ошибка: {0}, сначало удалите под меню строки карты сайта.</value>
+  </data>
+  <data name="mes_err_20014" xml:space="preserve">
+    <value>Ошибка: {0}, указанный пользователь или группа доступа отсутствует в списке.</value>
+  </data>
+  <data name="mes_err_20015" xml:space="preserve">
+    <value>Ошибка: {0}, достигнут предел сдвига позиции вниз.</value>
+  </data>
+  <data name="mes_err_20016" xml:space="preserve">
+    <value>Ошибка: {0}, достигнут предел сдвига позиции вверх.</value>
+  </data>
+  <data name="mes_err_20017" xml:space="preserve">
+    <value>Ошибка: {0}, выбрана корневая позиция, сдвиг невозможен.</value>
+  </data>
+  <data name="mes_err_20018" xml:space="preserve">
+    <value>Ошибка: {0}, указанная строка карты сайта не защищена.</value>
+  </data>
+  <data name="mes_err_20019" xml:space="preserve">
+    <value>Ошибка: {0}, указанная строка карты сайта уже защищена.</value>
+  </data>
+  <data name="mes_err_20020" xml:space="preserve">
+    <value>Ошибка: {0}, указанная строка защиты карты сайта не существует.</value>
+  </data>
+  <data name="mes_err_20021" xml:space="preserve">
+    <value>Ошибка: {0}, указанная строка основного шага внедрения проектов не существует.</value>
+  </data>
+  <data name="mes_err_20022" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите детальные шаги внедрения проекта.</value>
+  </data>
+  <data name="mes_err_20023" xml:space="preserve">
+    <value>Ошибка: {0}, указанный детальный шаг внедрения проекта не существует.</value>
+  </data>
+  <data name="mes_err_20024" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите все ссылки на указанный детальный шаг внедрения проекта.</value>
+  </data>
+  <data name="mes_err_20025" xml:space="preserve">
+    <value>Ошибка: {0}, указанный тип проекта не существует.</value>
+  </data>
+  <data name="mes_err_20026" xml:space="preserve">
+    <value>Ошибка: {0}, указанный тип проекта уже существует.</value>
+  </data>
+  <data name="mes_err_20027" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите все ссылки на внедряемые проекты службой.</value>
+  </data>
+  <data name="mes_err_20028" xml:space="preserve">
+    <value>Ошибка: {0}, указанный менеджер проекта не найден.</value>
+  </data>
+  <data name="mes_err_20029" xml:space="preserve">
+    <value>Ошибка: {0}, менеджер проектов с указанной учетной записью уже существует.</value>
+  </data>
+  <data name="mes_err_decimal" xml:space="preserve">
+    <value>Введенное значение имеет неправильный формат, пример: [0.050], [5,0000], [5000].</value>
+  </data>
+  <data name="mes_err_Email" xml:space="preserve">
+    <value>Введенный адрес E-mail имеет неправильный формат</value>
+  </data>
+  <data name="mes_err_MPhone" xml:space="preserve">
+    <value>Введенный телефон имеет неправильный формат, пример (0974760178)</value>
+  </data>
+  <data name="mes_err_NoNull" xml:space="preserve">
+    <value>Это поле не может быть пустым.</value>
+  </data>
+  <data name="mes_err_SiteDescription" xml:space="preserve">
+    <value>Введенное описание имеет неправильный формат, должны быть (цифры, русский текст, английский текст, пробел и символы ().,#;:[]%$&amp;'!?+-=№).</value>
+  </data>
+  <data name="mes_err_SiteDescriptionEng" xml:space="preserve">
+    <value>Введенное описание имеет неправильный формат, должны быть (цифры, английский текст, , пробел и символы ().,#;:[]%$&amp;'!?+-=).</value>
+  </data>
+  <data name="mes_err_SiteMapTitle" xml:space="preserve">
+    <value>Введенное название имеет неправильный формат, должны быть (цифры, русский текст, английский текст, пробел и символы ().,#;:[]%$&amp;'!?+-=№).</value>
+  </data>
+  <data name="mes_err_SiteMapTitleEng" xml:space="preserve">
+    <value>Введенное название имеет неправильный формат, должны быть (цифры, английский текст, , пробел и символы ().,#;:[]%$&amp;'!?+-=).</value>
+  </data>
+  <data name="mes_err_User" xml:space="preserve">
+    <value>Введенный пользователь имеет неправильный формат</value>
+  </data>
+  <data name="mes_err_WPhone" xml:space="preserve">
+    <value>Введенный телефон имеет неправильный формат, пример (9999999) или (99999)</value>
+  </data>
+  <data name="mes_info_0" xml:space="preserve">
+    <value>Операция прошла успешно, Код = {0}.</value>
+  </data>
+  <data name="mes_info_dbigstep" xml:space="preserve">
+    <value>Основной шаг внедрения проекта с ID={0} - удален.</value>
+  </data>
+  <data name="mes_info_dmenagerproject" xml:space="preserve">
+    <value>Менеджер проектов с ID={0} - удален.</value>
+  </data>
+  <data name="mes_info_downsitemap" xml:space="preserve">
+    <value>Строка карты сайта c ID = {1} сдвинута вниз на позицию: {0}</value>
+  </data>
+  <data name="mes_info_dsite" xml:space="preserve">
+    <value>Сайт с ID = {0} - удален из списка сайтов Web-сервера.</value>
+  </data>
+  <data name="mes_info_dsitemap" xml:space="preserve">
+    <value>Строка кары сайта с ID = {0}  - удалена.</value>
+  </data>
+  <data name="mes_info_dstep" xml:space="preserve">
+    <value>Детальный шаг внедрения проекта с ID = {0}  - удален.</value>
+  </data>
+  <data name="mes_info_dtypeproject" xml:space="preserve">
+    <value>Тип проекта с ID={0} - удален.</value>
+  </data>
+  <data name="mes_info_duser" xml:space="preserve">
+    <value>Пользователь или группа доступа с ID ={0} - удалены из списка.</value>
+  </data>
+  <data name="mes_info_dusertogroup" xml:space="preserve">
+    <value>Пользователь с ID={0} - удален из группы доступа.</value>
+  </data>
+  <data name="mes_info_ibigstep" xml:space="preserve">
+    <value>Добавлен основной шаг внедрения проекта , присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_ifile" xml:space="preserve">
+    <value>Файл добавлен, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_imenagerproject" xml:space="preserve">
+    <value>Добавлен новый менеджер проекта, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_isite" xml:space="preserve">
+    <value>Сайт добавлен в список сайтов Web-сервера , присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_isitemap" xml:space="preserve">
+    <value>Строка карты сайта добавлена , присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_itypeproject" xml:space="preserve">
+    <value>Добавлен новый тип проекта, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_iuser" xml:space="preserve">
+    <value>Пользователь или группа доступа добавлены , присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_iusertogroup" xml:space="preserve">
+    <value>Пользователь добавлен в группу доступа, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_raccesssitemap" xml:space="preserve">
+    <value>Защита на строку карты сайта установлена.  ID = {0}</value>
+  </data>
+  <data name="mes_info_ubigstep" xml:space="preserve">
+    <value>Основной шаг внедрения проектов с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_info_umenagerproject" xml:space="preserve">
+    <value>Менеджер проектов с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_info_upsitemap" xml:space="preserve">
+    <value>Строка карты сайта c ID = {1} сдвинута вверх на позицию: {0}</value>
+  </data>
+  <data name="mes_info_usite" xml:space="preserve">
+    <value>Информация по сайту с ID ={0} - обновлена.</value>
+  </data>
+  <data name="mes_info_usitemap" xml:space="preserve">
+    <value>Строка карты сайта c ID ={0} - обновлена.</value>
+  </data>
+  <data name="mes_info_ustep" xml:space="preserve">
+    <value>Детальный шаг внедрения проектов с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_info_utypeproject" xml:space="preserve">
+    <value>Тип проектов с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_info_uuser" xml:space="preserve">
+    <value>Информация об пользователе или группе доступа с ID ={0} - обновлена.</value>
+  </data>
+  <data name="mes_err_10037" xml:space="preserve">
+    <value>Ошибка: {0}, не указан проект.</value>
+  </data>
+  <data name="mes_err_10038" xml:space="preserve">
+    <value>Ошибка: {0}, не указан год.</value>
+  </data>
+  <data name="mes_err_10039" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное название проекта.</value>
+  </data>
+  <data name="mes_err_10040" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное название проекта.</value>
+  </data>
+  <data name="mes_err_10041" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное описание проекта.</value>
+  </data>
+  <data name="mes_err_10042" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное описание проекта.</value>
+  </data>
+  <data name="mes_err_10043" xml:space="preserve">
+    <value>Ошибка: {0}, не указан KPI.</value>
+  </data>
+  <data name="mes_err_10044" xml:space="preserve">
+    <value>Ошибка: {0}, не указан текущий статус проекта.</value>
+  </data>
+  <data name="mes_err_20030" xml:space="preserve">
+    <value>Ошибка: {0}, указанный проект не найден.</value>
+  </data>
+  <data name="mes_err_20031" xml:space="preserve">
+    <value>Ошибка: {0}, указанный  исполняющий обязанности менеджера проекта не найден.</value>
+  </data>
+  <data name="mes_err_20032" xml:space="preserve">
+    <value>Ошибка: {0}, указанный  KPI не найден.</value>
+  </data>
+  <data name="mes_info_uproject" xml:space="preserve">
+    <value>Проект с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_info_iproject" xml:space="preserve">
+    <value>Проект добавлен, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_err_1016" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списков детальных шагов проектов.</value>
+  </data>
+  <data name="mes_err_1017" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списков файлов детальных шагов проектов.</value>
+  </data>
+  <data name="mes_err_1018" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица хранения файлов.</value>
+  </data>
+  <data name="mes_info_dfullproject" xml:space="preserve">
+    <value>Проект с ID={0} - удален полностью.</value>
+  </data>
+  <data name="mes_info_dproject" xml:space="preserve">
+    <value>Проект с ID={0} - перемещен в архив.</value>
+  </data>
+  <data name="mes_err_20033" xml:space="preserve">
+    <value>Ошибка: {0}, указанный  шаблон внедрения проекта не найден.</value>
+  </data>
+  <data name="mes_err_10045" xml:space="preserve">
+    <value>Ошибка: {0}, файл не указан.</value>
+  </data>
+  <data name="mes_err_20034" xml:space="preserve">
+    <value>Ошибка: {0}, указанный  файл не найден.</value>
+  </data>
+  <data name="mes_err_20035" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите все ссылки на указанный файл.</value>
+  </data>
+  <data name="mes_info_dfile" xml:space="preserve">
+    <value>Файл с ID ={0} - удален из списка.</value>
+  </data>
+  <data name="mes_info_dfilestepdetali" xml:space="preserve">
+    <value>Файл детального шага внедрения проекта с ID ={0} - удален.</value>
+  </data>
+  <data name="mes_info_ifilestepdetali" xml:space="preserve">
+    <value>Добавлен файл детального шага внедрения проекта, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_err_date" xml:space="preserve">
+    <value>Введенное значение даты имеет неправильный формат, пример: [ДД-ММ-ГГГГ]</value>
+  </data>
+  <data name="mes_err_10046" xml:space="preserve">
+    <value>Ошибка: {0}, не указан процент выполнения.</value>
+  </data>
+  <data name="mes_err_20036" xml:space="preserve">
+    <value>Ошибка: {0},  некорректно указаны даты.</value>
+  </data>
+  <data name="mes_info_statusstepdetaliproject" xml:space="preserve">
+    <value>Состояние детального шага внедрения проекта с ID ={0} - изменено.</value>
+  </data>
+  <data name="mes_info_ustepdetaliproject" xml:space="preserve">
+    <value>Детальный шаг внедрения проекта с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_err_20037" xml:space="preserve">
+    <value>Ошибка: {0},  для указанного проекта уже существуют детальные шаги  внедрения.</value>
+  </data>
+  <data name="mes_info_createstepproject" xml:space="preserve">
+    <value>Детальные шаги внедрения проекта с ID = {0} – созданы.</value>
+  </data>
+  <data name="mes_info_clearstepproject" xml:space="preserve">
+    <value>Детальные шаги внедрения проекта с ID = {0} – очищены.</value>
+  </data>
+  <data name="mes_err_20038" xml:space="preserve">
+    <value>Ошибка: {0},  для указанного проекта не существуют детальных шагов  внедрения.</value>
+  </data>
+  <data name="mes_err_10047" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное название KPI.</value>
+  </data>
+  <data name="mes_err_10048" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное название KPI.</value>
+  </data>
+  <data name="mes_err_1019" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица перечня KPI.</value>
+  </data>
+  <data name="mes_err_1020" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица перечня KPI проектов.</value>
+  </data>
+  <data name="mes_err_20039" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите все ссылки на проекты.</value>
+  </data>
+  <data name="mes_info_dkpi" xml:space="preserve">
+    <value>KPI с ID={0} - удален из списка.</value>
+  </data>
+  <data name="mes_info_ikpi" xml:space="preserve">
+    <value>KPI добавлен, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_ukpi" xml:space="preserve">
+    <value>KPI с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_err_10049" xml:space="preserve">
+    <value>Ошибка: {0}, не указана строка годового KPI проектов.</value>
+  </data>
+  <data name="mes_err_10050" xml:space="preserve">
+    <value>Ошибка: {0}, не указана строка KPI проекта.</value>
+  </data>
+  <data name="mes_err_10051" xml:space="preserve">
+    <value>Ошибка: {0}, не указана показатель KPI проекта.</value>
+  </data>
+  <data name="mes_err_10052" xml:space="preserve">
+    <value>Ошибка: {0}, не указана показатель ROI проекта.</value>
+  </data>
+  <data name="mes_err_10053" xml:space="preserve">
+    <value>Ошибка: {0}, не указана показатель NPV проекта.</value>
+  </data>
+  <data name="mes_err_1021" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица перечня показателей KPI.</value>
+  </data>
+  <data name="mes_err_1022" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица перечня KPI проектов с показателями по годам.</value>
+  </data>
+  <data name="mes_err_20040" xml:space="preserve">
+    <value>Ошибка: {0},  указанная строка годового KPI проекта не найдена.</value>
+  </data>
+  <data name="mes_err_20041" xml:space="preserve">
+    <value>Ошибка: {0},  указанная строка KPI проекта не найдена.</value>
+  </data>
+  <data name="mes_err_20042" xml:space="preserve">
+    <value>Ошибка: {0}, указанный показатель  KPI проекта не найден.</value>
+  </data>
+  <data name="mes_info_ukpiproject" xml:space="preserve">
+    <value>Показатели KPI проекта с ID ={0}  - обновлены.</value>
+  </data>
+  <data name="mes_err_20043" xml:space="preserve">
+    <value>Ошибка: {0},  некорректно указан период.</value>
+  </data>
+  <data name="mes_err_20044" xml:space="preserve">
+    <value>Ошибка: {0},  строка KPI для данного проекта уже создана.</value>
+  </data>
+  <data name="mes_info_ikpiproject" xml:space="preserve">
+    <value>Добавлен новый KPI проекта, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_dkpiproject" xml:space="preserve">
+    <value>Стока KPI проекта c ID = {0} - удалена.</value>
+  </data>
+  <data name="mes_err_10054" xml:space="preserve">
+    <value>Ошибка: {0}, не указан тип строительства.</value>
+  </data>
+  <data name="mes_err_1023" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица перечня приказов.</value>
+  </data>
+  <data name="mes_err_20045" xml:space="preserve">
+    <value>Ошибка: {0},  указанный приказ отсутствует в списке приказов.</value>
+  </data>
+  <data name="mes_err_10055" xml:space="preserve">
+    <value>Ошибка: {0}, не указан тип документа.</value>
+  </data>
+  <data name="mes_err_10056" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное название типа документа.</value>
+  </data>
+  <data name="mes_err_10057" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное название типа документа.</value>
+  </data>
+  <data name="mes_err_1024" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица перечня типов документов.</value>
+  </data>
+  <data name="mes_err_20046" xml:space="preserve">
+    <value>Ошибка: {0},  указанный тип документа отсутствует в списке.</value>
+  </data>
+  <data name="mes_err_20047" xml:space="preserve">
+    <value>Ошибка: {0},  указанный тип документа уже существует.</value>
+  </data>
+  <data name="mes_err_20048" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите ссылки на документы.</value>
+  </data>
+  <data name="mes_info_dtypeorder" xml:space="preserve">
+    <value>Тип документа с ID={0} - удален.</value>
+  </data>
+  <data name="mes_info_itypeorder" xml:space="preserve">
+    <value>Добавлен новый тип документа, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_utypeorder" xml:space="preserve">
+    <value>Тип документа с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_err_10058" xml:space="preserve">
+    <value>Ошибка: {0}, не указан документ.</value>
+  </data>
+  <data name="mes_err_10059" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное название документа.</value>
+  </data>
+  <data name="mes_err_10060" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное название документа.</value>
+  </data>
+  <data name="mes_err_20049" xml:space="preserve">
+    <value>Ошибка: {0},  указанный документ отсутствует в списке.</value>
+  </data>
+  <data name="mes_info_iorder" xml:space="preserve">
+    <value>Добавлен новый документ, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_uorder" xml:space="preserve">
+    <value>Документ с ID ={0} - обновлен.</value>
+  </data>
+  <data name="mes_err_20050" xml:space="preserve">
+    <value>Ошибка: {0},  указанный документ ссылается на проект.</value>
+  </data>
+  <data name="mes_info_dorder" xml:space="preserve">
+    <value>Документ с ID = {0}  - удален.</value>
+  </data>
+  <data name="mes_err_10061" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное название структурного подразделения.</value>
+  </data>
+  <data name="mes_err_10062" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное название структурного подразделения.</value>
+  </data>
+  <data name="mes_err_10063" xml:space="preserve">
+    <value>Ошибка: {0}, не указано русскоязычное полное название структурного подразделения.</value>
+  </data>
+  <data name="mes_err_10064" xml:space="preserve">
+    <value>Ошибка: {0}, не указано англоязычное полное название структурного подразделения.</value>
+  </data>
+  <data name="mes_err_20051" xml:space="preserve">
+    <value>Ошибка: {0}, указанное основное структурное отсутствует в списке.</value>
+  </data>
+  <data name="mes_err_20052" xml:space="preserve">
+    <value>Ошибка: {0}, главное структурное подразделение уже существует.</value>
+  </data>
+  <data name="mes_err_20053" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите ссылки на карту сайта.</value>
+  </data>
+  <data name="mes_err_20054" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите ссылки на проекты.</value>
+  </data>
+  <data name="mes_err_20055" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите подразделения принадлежащие этому структурному подразделению.</value>
+  </data>
+  <data name="mes_err_section" xml:space="preserve">
+    <value>Введенное описание имеет неправильный формат, должны быть (цифры, русский текст, английский текст, пробел и символы ().#[]&amp;-).</value>
+  </data>
+  <data name="mes_err_sectioneng" xml:space="preserve">
+    <value>Введенное описание имеет неправильный формат, должны быть (цифры, английский текст, пробел и символы ().#[]&amp;-).</value>
+  </data>
+  <data name="mes_info_downsection" xml:space="preserve">
+    <value>Структурное подразделение c ID = {1} сдвинуто вниз на позицию: {0}</value>
+  </data>
+  <data name="mes_info_dsection" xml:space="preserve">
+    <value>Структурное подразделение с ID={0} - удалено.</value>
+  </data>
+  <data name="mes_info_isection" xml:space="preserve">
+    <value>Структурное подразделение добавлено, присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_upsection" xml:space="preserve">
+    <value>Структурное подразделение c ID = {1} сдвинуто вверх на позицию: {0}</value>
+  </data>
+  <data name="mes_info_usection" xml:space="preserve">
+    <value>Структурное подразделение с ID ={0} - обновлено.</value>
+  </data>
+  <data name="mes_err_20056" xml:space="preserve">
+    <value>Ошибка: {0},  сначала удалите ссылки на пользователей сайта.</value>
+  </data>
+  <data name="mes_err_1025" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица запросов пользователей на доступ.</value>
+  </data>
+  <data name="mes_err_1026" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица запросов пользователей на доступ к перечню сайтов.</value>
+  </data>
+  <data name="mes_err_10065" xml:space="preserve">
+    <value>Ошибка: {0}, не указана строка запроса пользователя на доступ к web-серверу.</value>
+  </data>
+  <data name="mes_err_10066" xml:space="preserve">
+    <value>Ошибка: {0}, не указан адрес электронной почты пользователя.</value>
+  </data>
+  <data name="mes_err_10067" xml:space="preserve">
+    <value>Ошибка: {0}, не указан признак рассылки почты для пользователя.</value>
+  </data>
+  <data name="mes_err_10068" xml:space="preserve">
+    <value>Ошибка: {0}, не указана фамилия пользователя.</value>
+  </data>
+  <data name="mes_err_10069" xml:space="preserve">
+    <value>Ошибка: {0}, не указано имя пользователя.</value>
+  </data>
+  <data name="mes_err_10070" xml:space="preserve">
+    <value>Ошибка: {0}, не указано отчество пользователя.</value>
+  </data>
+  <data name="mes_err_10071" xml:space="preserve">
+    <value>Ошибка: {0}, не указана должность пользователя.</value>
+  </data>
+  <data name="mes_err_10072" xml:space="preserve">
+    <value>Ошибка: {0}, не определен доступ пользователя к выбранному web-сайту.</value>
+  </data>
+  <data name="mes_err_20057" xml:space="preserve">
+    <value>Ошибка: {0},  указанная строка запроса пользователя на доступ к web-серверу не существует.</value>
+  </data>
+  <data name="mes_err_20058" xml:space="preserve">
+    <value>Ошибка: {0},  запрос пользователя на доступ к выбранному web-сайту уже существует.</value>
+  </data>
+  <data name="mes_info_iaccessusers" xml:space="preserve">
+    <value>Добавлена строка запроса пользователя на доступ к web-серверу, присвоено ID ={0}.</value>
+  </data>
+  <data name="mes_info_iaccesswebusers" xml:space="preserve">
+    <value>Добавлена строка запроса пользователя на доступ к выбранному  web-сайту, присвоено ID ={0}.</value>
+  </data>
+  <data name="mes_info_uaccessusers" xml:space="preserve">
+    <value>Строка запроса пользователя на доступ к web-серверу с ID ={0} - обновлена.</value>
+  </data>
+  <data name="mes_err_10073" xml:space="preserve">
+    <value>Ошибка: {0}, не определена строка запроса на доступ пользователя к выбранному web-сайту.</value>
+  </data>
+  <data name="mes_err_20059" xml:space="preserve">
+    <value>Ошибка: {0}, указанная строка запроса на доступ пользователя к выбранному web-сайту не существует.</value>
+  </data>
+  <data name="mes_info_uaccesswebusers" xml:space="preserve">
+    <value>Строка запроса пользователя на доступ к выбранному web-сайту с ID ={0} - обновлена.</value>
+  </data>
+  <data name="mes_err_10074" xml:space="preserve">
+    <value>Ошибка: {0}, не указан ID фоновой задачи HangFire.</value>
+  </data>
+  <data name="mes_err_10075" xml:space="preserve">
+    <value>Ошибка: {0}, не указан метод, выполняемый фоновой задачей HangFire.</value>
+  </data>
+  <data name="mes_err_10076" xml:space="preserve">
+    <value>Ошибка: {0}, не указано описание, выполняемой фоновой задачей HangFire.</value>
+  </data>
+  <data name="mes_err_10077" xml:space="preserve">
+    <value>Ошибка: {0}, не указан статус состояния фоновой задачей HangFire.</value>
+  </data>
+  <data name="mes_err_1027" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица списка фоновых задач HangFire.</value>
+  </data>
+  <data name="mes_err_1028" xml:space="preserve">
+    <value>Ошибка: {0}, отсутствует таблица логов выполнения фоновых задач HangFire.</value>
+  </data>
+  <data name="mes_err_20060" xml:space="preserve">
+    <value>Ошибка: {0}, указанный ID фоновой задачи HangFire не существует.</value>
+  </data>
+  <data name="mes_info_dhangfirejob" xml:space="preserve">
+    <value>Фоновая задача  HangFire с ID ={0} - удалена.</value>
+  </data>
+  <data name="mes_info_ihangfirejob" xml:space="preserve">
+    <value>Фоновая задача  HangFire добавлена , присвоено ID = {0}</value>
+  </data>
+  <data name="mes_info_uhangfirejob" xml:space="preserve">
+    <value>Фоновая задача  HangFire с ID ={0} - обновлена.</value>
+  </data>
+  <data name="mes_info_uenablehangfirejob" xml:space="preserve">
+    <value>Статус фоновой задачи  HangFire с ID ={0} - обновлен.</value>
+  </data>
+</root>

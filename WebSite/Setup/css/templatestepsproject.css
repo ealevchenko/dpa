@@ -1,0 +1,108 @@
+﻿    .divPanelControl {
+    width: auto;
+    float: left;
+    margin-bottom: 10px;
+}
+.divList {
+    clear: left;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto; /* Ширина колонки */
+    float: left; /* Обтекание справа */
+    margin: 0px 30px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.divDetali {
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto;
+    float: left; /*Обтекание справа */
+    margin: 0px 5px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+    /*.divDetali:empty {
+    display: none;
+    background-color: #00FF00;
+}*/
+.clear{
+    
+    margin-bottom: 20px;
+}
+table.tabBigStep {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tabBigStep th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabBigStep th a {
+    color: #0000FF;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+.tabBigStep td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.tabBigStep th.button {
+    width: 50px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #F7F6F3;
+}
+.tabBigStep th.BigStep {
+    width: 200px;
+}
+.tabBigStep th.Step {
+    width: 250px;
+}
+.tabBigStep td.BigStep {
+    text-align: left;
+}
+.tabBigStep td.Step {
+    text-align: left;
+    font-style: italic;
+}
+
+table.tabBigStep tr.select td, table.tabBigStep tr.select td a {
+    background-color: #808080;
+    color: #FFFFFF;
+}
+/**/
+table.tabStep {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: 300px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tabStep td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: left;
+    background-color: #FFFFFF;
+}

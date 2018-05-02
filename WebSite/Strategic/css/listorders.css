@@ -1,0 +1,126 @@
+﻿.selectTypeOrder {
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: 14px;
+    color: #666666;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.listOrders {
+    border: 1px solid #808080;
+    border-radius: 10px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+}
+
+    .listOrders div.upr {
+    text-align: left;
+}
+
+td.name {
+    width: 200px;
+    text-align: right;
+}        
+td.nameddl {
+    width: 500px;
+    text-align: left;
+}
+
+table select {    
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ddlbtselect {
+    width: 75%;
+}
+.title {
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/*Таблица tabListOrder*/
+table.tabListOrder {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: auto;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tabListOrder th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabListOrder th a {
+    color: #0000FF;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.tabListOrder td a
+{
+    color: #0000FF;
+}
+.tabListOrder td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.tabListOrder th.upr {
+    width: 100px;
+}
+.tabListOrder td.upr {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tabListOrder th.order {
+    width: 300px;
+}
+.tabListOrder td.order {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.tabListOrder th.numorder {
+    width: 100px;
+}
+.tabListOrder td.numorder {
+    text-align: center;
+}
+.tabListOrder th.dateorder {
+    width: 100px;
+}
+.tabListOrder td.dateorder {
+    text-align: center;
+}
+.tabListOrder th.file {
+    width: 200px;
+}
+.tabListOrder td.file {
+    text-align: left;
+}
+.tabListOrder th.fileeng {
+    width: 200px;
+}
+.tabListOrder td.fileeng {
+    text-align: left;
+}
+
+table.tabListOrder tr.select td, table.tabListOrder tr.select td a {
+    background-color: #808080;
+    color: #FFFFFF;
+}

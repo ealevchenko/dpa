@@ -1,0 +1,199 @@
+﻿.divSelectKPI {
+    padding: 10px;
+}
+table.selectkpi {
+    width: auto;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+    table.selectkpi td {
+    text-align: right;
+    padding: 5px;
+}
+        table.selectkpi td.name {
+    width: 100px;
+}        
+        table.selectkpi td.nameddl {
+    width: 500px;
+    text-align: center;
+}
+        table.selectkpi td.project {
+    width: 100px;
+}
+        table.selectkpi td.projectddl {
+    width: 500px;
+    text-align: center;
+}
+        table.selectkpi td.year {
+    width: 50px;
+}
+        table.selectkpi td.yearddl {
+    width: 100px;
+    text-align: center;
+}
+.ddlselect {
+    width: 95%;
+}
+.ddlbtselect {
+    width: 75%;
+}
+.divListKPI {
+    clear: left;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto; /* Ширина колонки */
+    float: left; /* Обтекание справа */
+    margin: 0px 30px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+    vertical-align: top;
+    text-align: center;
+}
+.divListKPI div.upr {
+    text-align: left;
+}
+
+.divDetaliKPI
+{
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto;
+    float: left; /*Обтекание справа */
+    margin: 0px 5px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    vertical-align: top;
+}
+.clear {
+    margin-bottom: 20px;
+    clear: left;
+}
+/*Таблица tabKPIProject*/
+table.tabKPIProject {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: auto;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tabKPIProject th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabKPIProject th a {
+    color: #0000FF;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.tabKPIProject td a
+{
+    color: #0000FF;
+}
+.tabKPIProject td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.tabKPIProject th.upr {
+    width: 100px;
+}
+.tabKPIProject td.upr {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tabKPIProject th.kpi {
+    width: 200px;
+}
+.tabKPIProject td.kpi {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.tabKPIProject th.project {
+    width: 200px;
+}
+.tabKPIProject td.project {
+    text-align: left;
+    text-transform: uppercase;
+}
+.tabKPIProject th.index {
+    width: 100px;
+}
+.tabKPIProject td.index {
+    text-align: center;
+}
+.tabKPIProject th.q1, .tabKPIProject th.q2, .tabKPIProject th.q3, .tabKPIProject th.q4 {
+    width: 100px;
+}
+.tabKPIProject td.q1, .tabKPIProject td.q2, .tabKPIProject td.q3, .tabKPIProject td.q4 {
+    text-align: center;
+}
+.tabKPIProject th.roi {
+    width: 100px;
+}
+.tabKPIProject th.roi {
+    width: 100px;
+}
+.tabKPIProject th.npv {
+    width: 100px;
+}
+.tabKPIProject th.npv {
+    width: 100px;
+}
+table.tabKPIProject tr.select td, table.tabKPIProject tr.select td a {
+    background-color: #808080;
+    color: #FFFFFF;
+}
+.failureedit {
+    /*font-size: 1.2em;*/
+    color: #FFFF66;
+}
+/*tabInsertKPIProject*/
+td table.tabInsertKPIProject {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: auto;
+    margin-top: 20px;
+    font-size: 14px;
+}
+td table.tabInsertKPIProject th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: right;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+    width: 200px;
+}
+td table.tabInsertKPIProject td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: left;
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.title {
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}

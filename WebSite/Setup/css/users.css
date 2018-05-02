@@ -1,0 +1,140 @@
+﻿/*div {
+    border: 1px solid #FF0000;
+}*/
+.Page {
+    /*border-radius: 10px;
+    border: 1px solid #808080;*/
+}
+.listUsers {
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto; /* Ширина колонки */
+    float: left; /* Обтекание справа */
+    margin: 0px 30px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.detaliUpr {
+    padding: 5px;
+    text-align: left;
+}
+
+table.tabUsers {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: 1500px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tabUsers th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabUsers th a {
+    color: #0000FF;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+.tabUsers td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.tabUsers th.icon {
+    width: 50px;
+}
+.tabUsers th.UserEnterprise {
+    width: 200px;
+}
+.tabUsers th.Web {
+    width: 100px;
+}
+.tabUsers th.Description {
+    width: 300px;
+}
+.tabUsers th.Email {
+    width: 150px;
+}
+.tabUsers th.bDistribution {
+    width: 40px;
+}
+.tabUsers th.Surname {
+    width: 100px;
+}
+.tabUsers th.Name {
+    width: 100px;
+}
+.tabUsers th.Patronymic {
+    width: 100px;
+}
+.tabUsers th.Post {
+    width: 100px;
+}
+.tabUsers th.Section {
+    width: 100px;
+}
+.tabUsers td.icon {
+    text-align: center;
+}
+.tabUsers td.UserEnterprise {
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tabUsers td.Web {
+    text-align: center;
+}
+.tabUsers td.Description {
+    text-align: left;
+    vertical-align: top;
+    font-style: italic;
+}
+.tabUsers td.Email {
+    text-align: right
+}
+.tabUsers td.bDistribution {
+    text-align: center
+}
+.tabUsers td.Surname {
+    text-align: center
+}
+.tabUsers td.Name {
+    text-align: center
+}
+.tabUsers td.Patronymic {
+    text-align: center
+}
+.tabUsers td.Post {
+        text-align: left;
+    vertical-align: top;
+}
+.tabUsers td.Section {
+    text-align: left
+}
+.select td, .select td a, .edit td {
+    background-color: #808080;
+    color: #FFFFFF;
+}
+
+.select td.upr, .edit td.upr {
+    vertical-align: top;
+}
+
+tabUsers tr.edit td.detali {
+color: #FFFFFF;
+}
+
+

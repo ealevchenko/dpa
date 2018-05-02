@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="StartSite.master.cs" Inherits="StartSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="scripts/default/jquery.min.js"></script>
+<%--    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>--%>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+                <div class="container">
+            <div class="header">
+                <asp:Panel ID="pnEmail" runat="server" Visible='<%# !this.returnmenu %>'>
+                <a href="mailto:Eduard.Levchenko@arcelormittal.com"><strong>
+                        <asp:Literal ID="Literal1" runat="server" Text="<%$ Resources:Resource, FooterEmail %>"></asp:Literal></strong></a>
+                </asp:Panel>
+                <asp:Panel ID="pnReturn" runat="server" Visible='<%# this.returnmenu %>'>
+                    <a href="Default.aspx">&#9776;<strong></strong>
+                        <asp:Literal ID="ltmesHome" runat="server" Text="<%$ Resources:Resource, mesHome %>"></asp:Literal>
+                    </a>
+                </asp:Panel>
+                <span class="right">
+                    <strong> <asp:Label ID="lbLanguage" runat="server" Text="<%$ Resources:Resource, Language %>"></asp:Label></strong>
+                    <asp:DropDownList ID="Language1" runat="server" AutoPostBack="True" SelectedValue='<%$ Resources:Resource, Culture %>'>
+                        <asp:ListItem Value="ru-RU">Russian (RU)</asp:ListItem>
+                        <asp:ListItem Value="en-US">English (US)</asp:ListItem>
+                    </asp:DropDownList>
+                    <a href="WebSite/Strategic/About.aspx"><strong><asp:Literal ID="Literal2" runat="server" Text="<%$ Resources:Resource, About %>"></asp:Literal></strong></a>
+                </span>
+                <div class="clr"></div>
+            </div>
+            <h1><asp:Literal ID="lbTitle1" runat="server" Text=""></asp:Literal><span><asp:Literal ID="lbTitle2" runat="server" Text=""></asp:Literal></span></h1>
+                    <div class="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                        </asp:ContentPlaceHolder>
+                    </div>
+            <!-- content -->
+        </div>
+
+
+
+    </form>
+</body>
+</html>

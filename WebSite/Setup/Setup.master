@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Setup.master.cs" Inherits="WebSite_Setup_Setup" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/setupmaster.css" rel="stylesheet" type="text/css" />
+    <link href="css/pushy.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery -->
+<%--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>--%>
+    <script src="scripts/default/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function LockScreen(message) {
+            var lock = document.getElementById('lockPane');
+            if (lock)
+                lock.className = 'LockOn';
+            lock.innerHTML = message;
+        }
+</script>
+</head>
+<body>
+    <form id="form1" runat="server" defaultbutton="btnEnter">
+        <asp:Button ID="btnEnter" runat="server" OnClientClick="return false;" Style="visibility: hidden; position: absolute" Text="Button" />
+    <div id="lockPane" class="LockOff"></div>
+                <!-- Pushy Menu -->
+        <nav class="pushy pushy-left">
+            <h3><asp:Literal ID="lttm1" runat="server" Text="<%$ Resources:ResourceBase, titleMenuAdmin %>"></asp:Literal></h3>
+            <ul>
+                <li><a href="<%# csitemap.GetPathUrl(6) %>"><asp:Literal ID="ltm11" runat="server" Text="<%$ Resources:ResourceBase, menuUsers %>"></asp:Literal></a></li>
+                <li><a href="<%# csitemap.GetPathUrl(7) %>"><asp:Literal ID="ltm12" runat="server" Text="<%$ Resources:ResourceBase, menuListSite %>"></asp:Literal></a></li>
+                <li><a href="<%# csitemap.GetPathUrl(8) %>"><asp:Literal ID="ltm13" runat="server" Text="<%$ Resources:ResourceBase, menuSiteMap %>"></asp:Literal></a></li>
+                <li><a href="<%# csitemap.GetPathUrl(19) %>"><asp:Literal ID="ltm14" runat="server" Text="<%$ Resources:ResourceBase, menuSection %>"></asp:Literal></a></li>
+                <li><a href="<%# csitemap.GetPathUrl(22) %>"><asp:Literal ID="ltm15" runat="server" Text="<%$ Resources:ResourceBase, menuAccessRequests %>"></asp:Literal></a></li>
+                <li><a href="<%# csitemap.GetPathUrl(24) %>"><asp:Literal ID="ltm16" runat="server" Text="<%$ Resources:ResourceBase, menuListJobs %>"></asp:Literal></a></li>
+                <li><a href="#">Контроль изменений</a></li>
+                <li><a href="#">Ошибки сайта</a></li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="<%# csitemap.GetPathUrl(11) %>"><asp:Literal ID="ltm20" runat="server" Text="<%$ Resources:ResourceBase, menuBackup %>"></asp:Literal></a></li>
+            </ul>
+            <h3>Технологические отчеты</h3>
+            <ul>
+                <li><a href="#">Сервера структурных подразделений</a></li>
+                <li><a href="#">Теги баз данных</a></li>
+                <li><a href="#">Отчеты структурных подразделений</a></li>
+                <li><a href="#">Графики структурных подразделений</a></li>
+            </ul>
+            <h3><asp:Literal ID="lttm3" runat="server" Text="<%$ Resources:ResourceBase, titleMenuProject %>"></asp:Literal></h3>
+            <ul>
+                <li><a href="<%# csitemap.GetPathUrl(9) %>"><asp:Literal ID="ltm31" runat="server" Text="<%$ Resources:ResourceBase, menuTemplateStepsProject %>"></asp:Literal></a></li>
+                <li><a href="<%# csitemap.GetPathUrl(10) %>"><asp:Literal ID="ltm32" runat="server" Text="<%$ Resources:ResourceBase, menuTypeProject %>"></asp:Literal></a></li>
+                <li><a href="<%# csitemap.GetPathUrl(12) %>"><asp:Literal ID="ltm33" runat="server" Text="<%$ Resources:ResourceBase, menuMenagerProject %>"></asp:Literal></a></li>
+            </ul>
+            <h3>Статистика Web-сайта</h3>
+            <ul>
+                <li><a href="#">Посещение сайтов</a></li>
+                <li><a href="#">ТОП Отчеты</a></li>
+                <li><a href="#">ТОП Пользователи</a></li>
+            </ul>
+        </nav>
+
+        <!-- Site Overlay -->
+        <div class="site-overlay"></div>
+
+        <div id="container">
+            <!-- Menu Button -->
+            <div class="header">
+                <!-- Menu Button -->
+                <div class="menu-btn">&#9776; <asp:Literal ID="ltmenu" runat="server" Text="<%$ Resources:Resource, menu %>"></asp:Literal></div>
+                <a href="../../Default.aspx"><strong>&#9776;</strong>
+                    <asp:Literal ID="ltmesHome" runat="server" Text="<%$ Resources:Resource, mesHome %>"></asp:Literal>
+                </a>
+                <span class="right">
+                    <strong>
+                        <asp:Label ID="lbLanguage" runat="server" Text="<%$ Resources:Resource, Language %>"></asp:Label></strong>
+                    <asp:DropDownList ID="Language1" runat="server" AutoPostBack="True" SelectedValue='<%$ Resources:Resource, Culture %>'>
+                        <asp:ListItem Value="ru-RU">Russian (RU)</asp:ListItem>
+                        <asp:ListItem Value="en-US">English (US)</asp:ListItem>
+                    </asp:DropDownList>
+                <a href="mailto:Eduard.Levchenko@arcelormittal.com"><strong>
+                    <asp:Literal ID="Literal1" runat="server" Text="<%$ Resources:Resource, FooterEmail %>"></asp:Literal></strong></a>
+                </span>
+                <div class="clr"></div>
+            </div>
+            <h1>
+                <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
+                <span><asp:Literal ID="ltDescription" runat="server"></asp:Literal></span></h1>
+            <div id="error">
+                <span class="failureNotification">
+                    <asp:Literal ID="ErrorMessage" runat="server"></asp:Literal>
+                </span>
+            </div>
+            <div id="info">
+                <span class="infoNotification">
+                    <asp:Literal ID="InfoMessage" runat="server"></asp:Literal>
+                </span>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!-- Pushy JS -->
+<%--    <script src="scripts/master/pushy.min.js"></script>--%>
+    <script src="scripts/default/pushy.min.js"></script>
+</body>
+</html>

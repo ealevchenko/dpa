@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="df_menu1" xml:space="preserve">
+    <value>Внедрение</value>
+  </data>
+  <data name="df_menu11" xml:space="preserve">
+    <value>Статус проектов</value>
+  </data>
+  <data name="df_menu12" xml:space="preserve">
+    <value>Отчет выполнения "весовой программы"</value>
+  </data>
+  <data name="df_menu14" xml:space="preserve">
+    <value>KPI проектов</value>
+  </data>
+  <data name="df_menu2" xml:space="preserve">
+    <value>Сопровождение</value>
+  </data>
+  <data name="df_menu21" xml:space="preserve">
+    <value>Новый проект</value>
+  </data>
+  <data name="df_menu22" xml:space="preserve">
+    <value>Мои проекты</value>
+  </data>
+  <data name="df_menu23" xml:space="preserve">
+    <value>Обновить KPI</value>
+  </data>
+  <data name="df_menu3" xml:space="preserve">
+    <value>Общая информация</value>
+  </data>
+  <data name="df_menu31" xml:space="preserve">
+    <value>Нормативная документация</value>
+  </data>
+  <data name="df_menu32" xml:space="preserve">
+    <value>Презентации</value>
+  </data>
+  <data name="df_menu33" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="df_Title1" xml:space="preserve">
+    <value>Служба по стратегическому развитию и внедрению АСУТП</value>
+  </data>
+  <data name="df_Title2" xml:space="preserve">
+    <value>ДАТП</value>
+  </data>
+  <data name="df_Title3" xml:space="preserve">
+    <value>Проекты и программы</value>
+  </data>
+  <data name="tsBigStep" xml:space="preserve">
+    <value>Основной шаг</value>
+  </data>
+  <data name="nfBigStepProject" xml:space="preserve">
+    <value>Основной шаг внедрения</value>
+  </data>
+  <data name="nfStepProject" xml:space="preserve">
+    <value>Детальный шаг внедрения</value>
+  </data>
+  <data name="tsStep" xml:space="preserve">
+    <value>Детальный шаг</value>
+  </data>
+  <data name="tsTemplate" xml:space="preserve">
+    <value>Шаблон внедрения</value>
+  </data>
+  <data name="tsTypeProject" xml:space="preserve">
+    <value>Тип проекта</value>
+  </data>
+  <data name="tsTypeProjectDescription" xml:space="preserve">
+    <value>Описание типа проекта</value>
+  </data>
+  <data name="nfTypeProject" xml:space="preserve">
+    <value>Тип финансирования</value>
+  </data>
+  <data name="nfTypeProjectDescription" xml:space="preserve">
+    <value>Описание типа проекта</value>
+  </data>
+  <data name="nfEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="nfFIO" xml:space="preserve">
+    <value>Ф.И.О.</value>
+  </data>
+  <data name="nfUserEnterprise" xml:space="preserve">
+    <value>Учетная запись</value>
+  </data>
+  <data name="nfActing" xml:space="preserve">
+    <value>Замещение</value>
+  </data>
+  <data name="nfMPhone" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="nfSuperMenager" xml:space="preserve">
+    <value>Главный менеджер</value>
+  </data>
+  <data name="nfWPhone" xml:space="preserve">
+    <value>Рабочий телефон</value>
+  </data>
+  <data name="menuProjectAdd" xml:space="preserve">
+    <value>Добавить новый проект внедрения ДАТП.</value>
+  </data>
+  <data name="menuProjectList" xml:space="preserve">
+    <value>Перечень проектов ДАТП.</value>
+  </data>
+  <data name="AllocationFundsNo" xml:space="preserve">
+    <value>Бюджет не выделен</value>
+  </data>
+  <data name="AllocationFundsYes" xml:space="preserve">
+    <value>Бюджет выделен</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Выполнен</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Удален</value>
+  </data>
+  <data name="nfActingMenager" xml:space="preserve">
+    <value>Замещает руководителя проектов и программ</value>
+  </data>
+  <data name="nfContractor" xml:space="preserve">
+    <value>Исполнитель работ</value>
+  </data>
+  <data name="nfNameDetaliKPI" xml:space="preserve">
+    <value>Показатель KPI</value>
+  </data>
+  <data name="nfNameFunding" xml:space="preserve">
+    <value>Затраты, тыс</value>
+  </data>
+  <data name="nfNameMenager" xml:space="preserve">
+    <value>Руководитель проекта от ДАТП</value>
+  </data>
+  <data name="nfNameProject" xml:space="preserve">
+    <value>Название проекта</value>
+  </data>
+  <data name="nfLineOwner" xml:space="preserve">
+    <value>Владелец строки</value>
+  </data>
+  <data name="nfNameStatus" xml:space="preserve">
+    <value>Текущий статус проекта</value>
+  </data>
+  <data name="nfNameYare" xml:space="preserve">
+    <value>Год начала внедрения</value>
+  </data>
+  <data name="nfSAPCode" xml:space="preserve">
+    <value>СПП</value>
+  </data>
+  <data name="nfTypeStatus" xml:space="preserve">
+    <value>New\Carryover</value>
+  </data>
+  <data name="nfTypeString" xml:space="preserve">
+    <value>Тип строки</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+  <data name="Study" xml:space="preserve">
+    <value>Проработка</value>
+  </data>
+  <data name="nfAllocationFunds" xml:space="preserve">
+    <value>Выделение средств</value>
+  </data>
+  <data name="nfTypeTemplate" xml:space="preserve">
+    <value>Выберите шаблон этапов внедрения проекта</value>
+  </data>
+  <data name="tsCurrentStep" xml:space="preserve">
+    <value>Текущий этап</value>
+  </data>
+  <data name="tsProjectStep" xml:space="preserve">
+    <value>Этап внедрения</value>
+  </data>
+  <data name="tsStepComent" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="tsStepFile" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="tsStepPersent" xml:space="preserve">
+    <value>Выполнено (%)</value>
+  </data>
+  <data name="tsStepResponsible" xml:space="preserve">
+    <value>Ответственный</value>
+  </data>
+  <data name="tsStepStart" xml:space="preserve">
+    <value>Начало этапа</value>
+  </data>
+  <data name="tsStepStop" xml:space="preserve">
+    <value>Конец этапа</value>
+  </data>
+  <data name="tsStepFiles" xml:space="preserve">
+    <value>Прикрепленные файлы</value>
+  </data>
+  <data name="addFile" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>удалить</value>
+  </data>
+  <data name="nfNameEffect" xml:space="preserve">
+    <value>Экономический эффект</value>
+  </data>
+  <data name="MyPerformance" xml:space="preserve">
+    <value>Мое исполнение</value>
+  </data>
+  <data name="MyProjects" xml:space="preserve">
+    <value>Мои проекты</value>
+  </data>
+  <data name="nfProjecDescriptiont" xml:space="preserve">
+    <value>Описание проекта</value>
+  </data>
+  <data name="titleCardProject" xml:space="preserve">
+    <value>Карточка проекта</value>
+  </data>
+  <data name="titleStepProject" xml:space="preserve">
+    <value>Шаги выполнения проекта</value>
+  </data>
+  <data name="EmailBoss" xml:space="preserve">
+    <value>Nikita.Shidlovskiy@arcelormittal.com</value>
+  </data>
+  <data name="FooterEmailBoss" xml:space="preserve">
+    <value>Вопросы к руководителю службы</value>
+  </data>
+  <data name="menuProjectKPI" xml:space="preserve">
+    <value>Обновить статус KPI проектов.</value>
+  </data>
+  <data name="tsNameKPI" xml:space="preserve">
+    <value>Наименование показателя KPI</value>
+  </data>
+  <data name="nfKPI" xml:space="preserve">
+    <value>KPI</value>
+  </data>
+  <data name="nfKPIProject" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="nfIndexKPI" xml:space="preserve">
+    <value>Показатель</value>
+  </data>
+  <data name="nfNPV" xml:space="preserve">
+    <value>NPV,тыс.$</value>
+  </data>
+  <data name="nfQ1" xml:space="preserve">
+    <value>1 кв.</value>
+  </data>
+  <data name="nfQ2" xml:space="preserve">
+    <value>2 кв.</value>
+  </data>
+  <data name="nfQ3" xml:space="preserve">
+    <value>3 кв.</value>
+  </data>
+  <data name="nfQ4" xml:space="preserve">
+    <value>4 кв.</value>
+  </data>
+  <data name="nfROI" xml:space="preserve">
+    <value>ROI,%</value>
+  </data>
+  <data name="nfYearStart" xml:space="preserve">
+    <value>Год начала отслеживания</value>
+  </data>
+  <data name="nfYearStop" xml:space="preserve">
+    <value>Год конца отслеживания</value>
+  </data>
+  <data name="insertKPI" xml:space="preserve">
+    <value>Добавить KPI</value>
+  </data>
+  <data name="titleListKPIProject" xml:space="preserve">
+    <value>Перечень показателей KPI проетов</value>
+  </data>
+  <data name="updateKPI" xml:space="preserve">
+    <value>Обновить KPI</value>
+  </data>
+  <data name="insertKPIProject" xml:space="preserve">
+    <value>Добавить KPI проекта</value>
+  </data>
+  <data name="menuProjectStatus" xml:space="preserve">
+    <value>Статус проектов.</value>
+  </data>
+  <data name="tsNameMenager" xml:space="preserve">
+    <value>Руководитель проекта</value>
+  </data>
+  <data name="tsNameStatus" xml:space="preserve">
+    <value>Статус выполнения проекта</value>
+  </data>
+  <data name="tsYear" xml:space="preserve">
+    <value>Год внедрения</value>
+  </data>
+  <data name="spFunding" xml:space="preserve">
+    <value>Затраты, тыс</value>
+  </data>
+  <data name="spMenager" xml:space="preserve">
+    <value>Руководитель проекта от ДАТП</value>
+  </data>
+  <data name="spPersentRun" xml:space="preserve">
+    <value>% выполнения</value>
+  </data>
+  <data name="spProject" xml:space="preserve">
+    <value>Название проекта</value>
+  </data>
+  <data name="spSAPCode" xml:space="preserve">
+    <value>СПП елемент \ Департамент</value>
+  </data>
+  <data name="spToolTipCard" xml:space="preserve">
+    <value>Карточка проекта</value>
+  </data>
+  <data name="spToolTipStep" xml:space="preserve">
+    <value>Детальные шаги выполнения проекта</value>
+  </data>
+  <data name="spType" xml:space="preserve">
+    <value>Тип проекта</value>
+  </data>
+  <data name="spTypeStatus" xml:space="preserve">
+    <value>New\Carryover</value>
+  </data>
+  <data name="NewConstruction" xml:space="preserve">
+    <value>Новое строительство</value>
+  </data>
+  <data name="nfDateContractor" xml:space="preserve">
+    <value>Дата выполнения работ по контракту</value>
+  </data>
+  <data name="nfOrder" xml:space="preserve">
+    <value>Приказ по проекту</value>
+  </data>
+  <data name="nfTypeConstruction" xml:space="preserve">
+    <value>Тип строительства</value>
+  </data>
+  <data name="Not" xml:space="preserve">
+    <value>Неопределенно</value>
+  </data>
+  <data name="tsProjectDescription" xml:space="preserve">
+    <value>Описание проекта</value>
+  </data>
+  <data name="Upgrading" xml:space="preserve">
+    <value>Модернизация</value>
+  </data>
+  <data name="tsDateOrder" xml:space="preserve">
+    <value>Дата утверждения</value>
+  </data>
+  <data name="tsNumOrder" xml:space="preserve">
+    <value>Номер документа</value>
+  </data>
+  <data name="tsOrder" xml:space="preserve">
+    <value>Название документа</value>
+  </data>
+  <data name="tsOrderFile" xml:space="preserve">
+    <value>Файл документа</value>
+  </data>
+  <data name="tsTypeOrder" xml:space="preserve">
+    <value>Тип документа</value>
+  </data>
+  <data name="menuOrder" xml:space="preserve">
+    <value>Перечень нормативной документации по службе.</value>
+  </data>
+  <data name="titleListOrder" xml:space="preserve">
+    <value>Список нормативной документации.</value>
+  </data>
+  <data name="tsOrderInEng" xml:space="preserve">
+    <value>Документ на английском</value>
+  </data>
+  <data name="tsOrderInRus" xml:space="preserve">
+    <value>Документ на русском</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>от</value>
+  </data>
+  <data name="OrderNum" xml:space="preserve">
+    <value>Приказ №</value>
+  </data>
+  <data name="spStringExecutor" xml:space="preserve">
+    <value>Ответственный и исполнитель работ по контракту</value>
+  </data>
+  <data name="spStringFinancing" xml:space="preserve">
+    <value>Финансирование</value>
+  </data>
+  <data name="spStringImplementation" xml:space="preserve">
+    <value>Внедрение</value>
+  </data>
+  <data name="spStringProject" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="spToolTipStatus" xml:space="preserve">
+    <value>Статус проектов</value>
+  </data>
+  <data name="nfDateChange" xml:space="preserve">
+    <value>Последнее обновление</value>
+  </data>
+  <data name="nfImplementationProgram" xml:space="preserve">
+    <value>Программа внедрения</value>
+  </data>
+  <data name="nfNameSection" xml:space="preserve">
+    <value>Департамент</value>
+  </data>
+  <data name="Scales" xml:space="preserve">
+    <value>Весовая программа</value>
+  </data>
+  <data name="menuScalesProgram" xml:space="preserve">
+    <value>Отчет выполнения "весовой программы"</value>
+  </data>
+  <data name="ppBudget" xml:space="preserve">
+    <value>Бюджет/Контракт</value>
+  </data>
+  <data name="ppComent" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="ppComentStop" xml:space="preserve">
+    <value>Ожидаемая дата</value>
+  </data>
+  <data name="ppContractor" xml:space="preserve">
+    <value>Исполнитель работ</value>
+  </data>
+  <data name="ppCost" xml:space="preserve">
+    <value>Затраты (тыс.)</value>
+  </data>
+  <data name="ppDateContractor" xml:space="preserve">
+    <value>Дата выполнения работ по контракту</value>
+  </data>
+  <data name="ppNameProject" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="ppOrderProject" xml:space="preserve">
+    <value>Приказ</value>
+  </data>
+  <data name="ppStatus" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ppTypeConstruction" xml:space="preserve">
+    <value>Вид строительства</value>
+  </data>
+  <data name="spToolTipReturnList" xml:space="preserve">
+    <value>Возврат к списку</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Закупка</value>
+  </data>
+  <data name="menuProcatProgram" xml:space="preserve">
+    <value>Отчет выполнения "прокатной программы"</value>
+  </data>
+  <data name="Procat" xml:space="preserve">
+    <value>Прокатная программа</value>
+  </data>
+  <data name="df_menu13" xml:space="preserve">
+    <value>Отчет выполнения "прокатной программы"</value>
+  </data>
+</root>

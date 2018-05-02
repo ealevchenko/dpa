@@ -1,0 +1,199 @@
+﻿.listRequests {
+    clear: left;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto; /* Ширина колонки */
+    float: left; /* Обтекание справа */
+    margin: 0px 30px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.DetaliRequests {
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto;
+    float: left; /*Обтекание справа */
+    margin: 0px 5px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+    /*.divDetali:empty {
+    display: none;
+    background-color: #00FF00;
+}*/
+.clear{
+    
+    margin-bottom: 20px;
+}
+
+/* Стили таблицы tabSite*/
+table.tablistRequests {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: 1100px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tablistRequests th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tablistRequests th a {
+    color: #0000FF;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+.tablistRequests td {
+    padding: 5px;
+    border: 1px solid #999999;
+    text-align: center;
+}
+
+.tablistRequests tr.item {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.tablistRequests tr.select {
+    background-color: #999999;
+    color: #FFFFFF;
+}
+tr.select a {
+    color: #FFFFFF;
+}
+.tablistRequests th.UserEnterprise {
+    width: 200px;
+}
+.tablistRequests th.Email {
+    width: 300px;
+}
+.tablistRequests th.DateCreate {
+    width: 200px;
+}
+.tablistRequests th.DateChange {
+    width: 200px;
+}
+.tablistRequests th.DateAccess {
+    width: 200px;
+}
+.tablistRequests td.UserEnterprise {
+    text-align: left;
+}
+.tablistRequests td.Email {
+    text-align: left;
+}
+.tablistRequests td.DateCreate {
+    text-align:center;
+}
+.tablistRequests td.DateChange {
+    text-align:center;
+}
+.tablistRequests td.DateAccess {
+    text-align:center;
+}     
+
+/*tabAccessWeb*/
+table.tabAccessWeb {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: auto;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.tabAccessWeb th {
+    padding: 5px 10px 5px 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabAccessWeb td {
+    padding: 5px;
+    border: 1px solid #999999;
+    /*color: #000000;
+    background-color: #FFFFFF;*/
+}
+.tabAccessWeb td a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+.tabAccessWeb th.access {
+    width: 50px;
+}
+.tabAccessWeb td.access {
+    text-align: center;
+}
+.tabAccessWeb th.accessweb {
+    width: 300px;
+}
+.tabAccessWeb td.accessweb {
+    text-align: left;
+    font-style: italic;
+}
+.tabAccessWeb th.ownerweb {
+    width: 200px;
+}
+.tabAccessWeb td.ownerweb {
+    text-align: left;
+}
+.tabAccessWeb th.daterequest {
+    width: 100px;
+}
+.tabAccessWeb td.daterequest {
+    text-align: center;
+}
+.tabAccessWeb th.dateapproval {
+    width: 100px;
+}
+.tabAccessWeb td.dateapproval {
+    text-align: center;
+}
+.tabAccessWeb th.solution {
+    width: 100px;
+}
+.tabAccessWeb td.solution {
+    text-align: center;
+}
+.tabAccessWeb th.coment {
+    width: 200px;
+}
+.tabAccessWeb td.coment {
+        text-align: left;
+    font-style: italic;
+}                  
+
+.tabAccessWeb tr.Yes {
+    background-color: #009900;
+    color: #FFFF99;
+}
+.tabAccessWeb tr.No {
+    background-color: #FF6699;
+    color: #000000;
+}
+.tabAccessWeb tr.Owner {
+    background-color: #999999;
+    color: #FFFFFF;
+}
+.tabAccessWeb tr.Null {
+    background-color: #FFFFFF;
+    color: #C0C0C0;
+    text-decoration: line-through;
+}

@@ -1,0 +1,612 @@
+﻿.Upr {
+    margin-bottom: 20px; /*width: 90%;*/
+    text-align: center;
+    padding-top: 10px;
+    color: #666666;
+}
+.Upr input {
+    color: #666666;
+}
+
+.LinkCommand {
+    padding: 5px;
+    text-transform: uppercase;
+    margin: 5px;
+    font-weight: normal;
+    color: #666666;
+    text-decoration: underline;
+}
+.LinkSelectCommand {
+    padding: 5px;
+    text-transform: uppercase;
+    margin: 5px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: underline;
+    background-color: #f05f40;
+}
+/* Стили таблицы tabSostav*/
+table.tabSostav {
+    border: 1px solid #666666;
+    color: #494949;
+    border-radius: 3px;
+    background-color: #F7F6F3; /*font-family: 'Arial Narrow';*/
+    width: 1400px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.tabSostav th {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabSostav th a {
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tabSostav td {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    text-align: center;
+    /*background-color: #FFFFFF;*/
+}
+.tabSostav td a {
+    color: #0000FF;
+}
+.tabSostav th.DateTime {
+    width: 150px;
+}
+.tabSostav th.NaturNum {
+    width: 100px;
+}
+.tabSostav th.Station {
+    width: 300px;
+}
+/*.tabSostav th.WayNum {
+    width: 50px;
+}*/
+.tabSostav th.WayName {
+    width: 300px;
+}
+/*.tabSostav th.WayCapacity {
+    width: 50px;
+}*/
+.tabSostav th.CountWagons {
+    width: 50px;
+}
+.tabSostav th.CountNatHIist {
+    width: 50px;
+}
+.tabSostav th.CountSetWagons {
+    width: 50px;
+}
+.tabSostav th.CountSetNatHIist {
+    width: 50px;
+}
+.tabSostav th.Close {
+    width: 150px;
+}
+.tabSostav th.Status {
+    width: 150px;
+}
+
+.tabSostav td.DateTime {
+    text-align: center;
+}
+.tabSostav td.NaturNum {
+    text-align: center;
+}
+.tabSostav td.Station {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+/*.tabSostav td.WayNum {
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+}*/
+.tabSostav td.WayName {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+/*.tabSostav td.WayCapacity {
+    text-align: center;
+}*/
+.tabSostav td.CountWagons {
+    text-align: center;
+}
+.tabSostav td.CountNatHIist {
+    text-align: center;
+}
+.tabSostav td.CountSetWagons {
+    text-align: center;
+}
+.tabSostav td.CountSetNatHIist {
+    text-align: center;
+}
+.tabSostav td.Close {
+    text-align: center;
+}
+.tabSostav td.Status {
+    text-align: center;
+}
+
+/* Стили таблицы tabInputStation*/
+table.tabInputStation {
+    border: 1px solid #666666;
+    color: #494949;
+    border-radius: 3px;
+    background-color: #F7F6F3; /*font-family: 'Arial Narrow';*/
+    width: 1400px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.tabInputStation th {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabInputStation th a {
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tabInputStation td {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    text-align: center;
+    /*background-color: #FFFFFF;*/
+}
+.tabInputStation td a {
+    color: #0000FF;
+}
+.tabInputStation th.DateTime {
+    width: 150px;
+}
+.tabInputStation th.DocNum {
+    width: 100px;
+}
+.tabInputStation th.SenderStation {
+    width: 300px;
+}
+.tabInputStation th.SenderWayName {
+    width: 300px;
+}
+.tabInputStation th.ReceiverStation {
+    width: 300px;
+}
+.tabInputStation th.CountWagons {
+    width: 50px;
+}
+.tabInputStation th.CountSetWagons {
+    width: 50px;
+}
+/*.tabInputStation th.CountUpdareWagons {
+    width: 50px;
+}*/
+.tabInputStation th.Close {
+    width: 150px;
+}
+.tabInputStation th.Status {
+    width: 150px;
+}
+
+.tabInputStation td.DateTime {
+    text-align: center;
+}
+.tabInputStation td.DocNum {
+    text-align: center;
+}
+.tabInputStation td.SenderStation {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.tabInputStation td.SenderWayName {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.tabInputStation td.ReceiverStation {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.tabInputStation td.CountWagons {
+    text-align: center;
+}
+.tabInputStation td.CountSetWagons {
+    text-align: center;
+}
+/*.tabInputStation td.CountUpdareWagons {
+    text-align: center;
+}*/
+.tabInputStation td.Close {
+    text-align: center;
+}
+.tabInputStation td.Status {
+    text-align: center;
+}
+
+/* Стили таблицы tabOutputStation*/
+table.tabOutputStation {
+    border: 1px solid #666666;
+    color: #494949;
+    border-radius: 3px;
+    background-color: #F7F6F3; /*font-family: 'Arial Narrow';*/
+    width: 1500px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.tabOutputStation th {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabOutputStation th a {
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tabOutputStation td {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    text-align: center;
+    /*background-color: #FFFFFF;*/
+}
+.tabOutputStation td a {
+    color: #0000FF;
+}
+.tabOutputStation th.DateTime {
+    width: 150px;
+}
+.tabOutputStation th.DocNum {
+    width: 100px;
+}
+.tabOutputStation th.SenderStation {
+    width: 300px;
+}
+.tabOutputStation th.SenderWayName {
+    width: 300px;
+}
+.tabOutputStation th.ReceiverStation {
+    width: 300px;
+}
+.tabOutputStation th.CountWagons {
+    width: 50px;
+}
+.tabOutputStation th.CountSetWagons {
+    width: 50px;
+}
+.tabInputStation th.CountUpdareWagons {
+    width: 50px;
+}
+.tabOutputStation th.Close {
+    width: 150px;
+}
+.tabOutputStation th.Status {
+    width: 150px;
+}
+
+.tabOutputStation td.DateTime {
+    text-align: center;
+}
+.tabOutputStation td.DocNum {
+    text-align: center;
+}
+.tabOutputStation td.SenderStation {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.tabOutputStation td.ReceiverWayName {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.tabOutputStation td.ReceiverStation {
+    text-align: left;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.tabOutputStation td.CountWagons {
+    text-align: center;
+}
+.tabOutputStation td.CountSetWagons {
+    text-align: center;
+}
+.tabInputStation td.CountUpdareWagons {
+    text-align: center;
+}
+.tabOutputStation td.Close {
+    text-align: center;
+}
+.tabOutputStation td.Status {
+    text-align: center;
+}
+
+tr.Normal {
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+tr.Update {
+    background-color: #99CCFF;
+}
+tr.Insert {
+    background-color: #FFFF99;
+    text-decoration: none;
+}
+tr.Delete {
+    background-color: #FF6699;
+    text-decoration: line-through;
+}
+tr.select {
+    background-color: #f05f40;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+/*TrueView*/
+.divtv {
+    clear: left;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: 350px;  
+    float: left; /* Обтекание справа */
+    margin: 30px 30px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.mtlist {
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto;
+    float: left; /*Обтекание справа */
+    margin: 30px 5px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+.cls {
+    clear: left;
+}
+
+.tnslevel1 {
+    padding: 10px 5px 0px 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3333CC;
+    text-decoration: underline; /*margin-top: 20px;
+    display: block;
+    vertical-align: bottom;*/
+}
+
+.tvFolder {
+    padding: 0px 5px 0px 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    /*color: #000000;*/
+    font-weight: bold;
+}
+.tvFile {
+    padding: 0px 5px 0px 5px;
+    font-size: 12px;
+    /*color: #006600;*/
+    font-style: italic;
+    background-color: #FFFFCC;
+}
+
+.tvSelect {
+    padding: 0px 5px 0px 5px;
+    background-color: #f05f40;
+    text-decoration: none;
+    color: #FFFFFF;
+    /*text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;*/
+}
+.tvHover {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+/* Стили таблицы tabMTList*/
+table.tabMTList {
+    border: 1px solid #666666;
+    color: #494949;
+    border-radius: 3px;
+    background-color: #F7F6F3; /*font-family: 'Arial Narrow';*/
+    width: 1200px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.tabMTList th {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabMTList th a {
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tabMTList td {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    text-align: center;
+    /*background-color: #FFFFFF;*/
+}
+.tabMTList td a {
+    color: #0000FF;
+}
+
+.tabMTList th.Position {
+    width: 50px;
+}
+.tabMTList th.CarriageNumber {
+    width: 50px;
+}
+.tabMTList th.CountryCode {
+    width: 50px;
+}
+.tabMTList th.Weight{
+    width: 50px;
+}
+.tabMTList th.IDCargo {
+    width: 50px;
+}
+.tabMTList th.Cargo {
+    width: 200px;
+}
+.tabMTList th.IDStation {
+    width: 50px;
+}
+.tabMTList th.Station {
+    width: 300px;
+}
+.tabMTList th.Consignee {
+    width: 50px;
+}
+.tabMTList th.Operation {
+    width: 50px;
+}
+.tabMTList th.CompositionIndex {
+    width: 100px;
+}
+.tabMTList th.DateOperation {
+    width: 150px;
+}
+.tabMTList th.TrainNumber {
+    width: 50px;
+}
+.tabMTList td.Position {
+    text-align: center;
+}
+.tabMTList td.CarriageNumber {
+    text-align: center;
+}
+.tabMTList td.CountryCode {
+    text-align: center;
+}
+.tabMTList td.Weight{
+    text-align: center;
+}
+.tabMTList td.IDCargo {
+    text-align: center;
+}
+.tabMTList td.Cargo {
+    text-align:left;
+}
+.tabMTList td.IDStation {
+    text-align: center;
+}
+.tabMTList td.Station {
+    text-align:left;
+}
+.tabMTList td.Consignee {
+    text-align: center;
+}
+.tabMTList td.Operation {
+    text-align: center;
+}
+.tabMTList td.CompositionIndex {
+    text-align: center;
+}
+.tabMTList td.DateOperation {
+    text-align: center;
+}
+.tabMTList td.TrainNumber {
+    text-align: center;
+}
+
+
+.divKISSostav {
+    clear: left;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: auto;  
+    float: left; /* Обтекание справа */
+    margin: 30px 30px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.divKISList {
+    border-radius: 10px;
+    border: 1px solid #808080;
+    width: 150px;
+    float: left; /*Обтекание справа */
+    margin: 30px 5px 0px 0px; /*  Параметры рамки вокруг */
+    padding: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+/* Стили таблицы tabListSostav*/
+table.tabListSostav {
+    border: 1px solid #666666;
+    color: #494949;
+    border-radius: 3px;
+    background-color: #F7F6F3; /*font-family: 'Arial Narrow';*/
+    width: 100px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.tabListSostav th {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabListSostav th a {
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tabListSostav td {
+    padding: 5px;
+    border: 1px solid #666666;
+    color: #666666;
+    text-align: center;
+    /*background-color: #FFFFFF;*/
+}

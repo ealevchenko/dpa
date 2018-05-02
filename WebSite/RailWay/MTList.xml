@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:int" minOccurs="0" />
+                <xs:element name="Position" type="xs:int" minOccurs="0" />
+                <xs:element name="CarriageNumber" type="xs:int" minOccurs="0" />
+                <xs:element name="CountryCode" type="xs:int" minOccurs="0" />
+                <xs:element name="Weight" type="xs:float" minOccurs="0" />
+                <xs:element name="IDCargo" type="xs:int" minOccurs="0" />
+                <xs:element name="Cargo" type="xs:string" minOccurs="0" />
+                <xs:element name="IDStation" type="xs:int" minOccurs="0" />
+                <xs:element name="Station" type="xs:string" minOccurs="0" />
+                <xs:element name="Consignee" type="xs:int" minOccurs="0" />
+                <xs:element name="Operation" type="xs:string" minOccurs="0" />
+                <xs:element name="CompositionIndex" type="xs:string" minOccurs="0" />
+                <xs:element name="DateOperation" type="xs:string" minOccurs="0" />
+                <xs:element name="TrainNumber" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>1</ID>
+    <Position>1</Position>
+    <CarriageNumber>53190799</CarriageNumber>
+    <CountryCode>201</CountryCode>
+    <Weight>70</Weight>
+    <IDCargo>16111</IDCargo>
+    <Cargo>УГОЛЬ КАМЕ</Cargo>
+    <IDStation>46700</IDStation>
+    <Station>КР.РОГ ГЛА</Station>
+    <Consignee>3437</Consignee>
+    <Operation>ПРИБ</Operation>
+    <CompositionIndex>8630-239-4670</CompositionIndex>
+    <DateOperation>15.07.16 09:40</DateOperation>
+    <TrainNumber>2983</TrainNumber>
+  </Table>
+  <Table>
+    <ID>2</ID>
+    <Position>1</Position>
+    <CarriageNumber>53190799</CarriageNumber>
+    <CountryCode>201</CountryCode>
+    <Weight>70</Weight>
+    <IDCargo>16111</IDCargo>
+    <Cargo>УГОЛЬ КАМЕ</Cargo>
+    <IDStation>46700</IDStation>
+    <Station>КР.РОГ ГЛА</Station>
+    <Consignee>3437</Consignee>
+    <Operation>ПРИБ</Operation>
+    <CompositionIndex>8630-239-4670</CompositionIndex>
+    <DateOperation>15.07.16 09:40</DateOperation>
+    <TrainNumber>2983</TrainNumber>
+  </Table>
+  <Table>
+    <ID>3</ID>
+    <Position>1</Position>
+    <CarriageNumber>53190799</CarriageNumber>
+    <CountryCode>201</CountryCode>
+    <Weight>70</Weight>
+    <IDCargo>16111</IDCargo>
+    <Cargo>УГОЛЬ КАМЕ</Cargo>
+    <IDStation>46700</IDStation>
+    <Station>КР.РОГ ГЛА</Station>
+    <Consignee>3437</Consignee>
+    <Operation>ПРИБ</Operation>
+    <CompositionIndex>8630-239-4670</CompositionIndex>
+    <DateOperation>15.07.16 09:40</DateOperation>
+    <TrainNumber>2983</TrainNumber>
+  </Table>
+</NewDataSet>

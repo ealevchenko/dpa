@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btAdd" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="btDel" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ddlAll" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="menuUsers" xml:space="preserve">
+    <value>Пользователи Web-сайта</value>
+  </data>
+  <data name="MessageDeleteUser" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить этот акаунт?');</value>
+  </data>
+  <data name="nfDescription" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="nfDistribution" xml:space="preserve">
+    <value>Рассылка уведомлений</value>
+  </data>
+  <data name="nfEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="nfName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="nfPatronymic" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="nfPost" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="nfSection" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="nfSurname" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="nfUserEnterprise" xml:space="preserve">
+    <value>Пользователь\группа доступа</value>
+  </data>
+  <data name="nfWeb" xml:space="preserve">
+    <value>Web-сайт</value>
+  </data>
+  <data name="stxtGroupWeb" xml:space="preserve">
+    <value>Группы сайта:</value>
+  </data>
+  <data name="stxtSearchDescription" xml:space="preserve">
+    <value>Поиск по описанию:</value>
+  </data>
+  <data name="stxtSearchUsers" xml:space="preserve">
+    <value>Поиск по пользователю:</value>
+  </data>
+  <data name="stxtSection" xml:space="preserve">
+    <value>Подразделение:</value>
+  </data>
+  <data name="titleMenuAdmin" xml:space="preserve">
+    <value>Администрирование</value>
+  </data>
+  <data name="tsAccount" xml:space="preserve">
+    <value>Учетная запись</value>
+  </data>
+  <data name="tsDescription" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="tsDistribution" xml:space="preserve">
+    <value>Рассылка</value>
+  </data>
+  <data name="tsEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="tsGroup" xml:space="preserve">
+    <value>Группа доступа</value>
+  </data>
+  <data name="tsName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="tsPatronymic" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="tsPost" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="tsSection" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="tsSurname" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="tsType" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="tsWeb" xml:space="preserve">
+    <value>Web-сайт</value>
+  </data>
+  <data name="menuListSite" xml:space="preserve">
+    <value>Список сайтов Web-сервера</value>
+  </data>
+  <data name="nfURL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="tsURLHelp" xml:space="preserve">
+    <value>URL страницы помощи</value>
+  </data>
+  <data name="ToolTipCancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ToolTipDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ToolTipInsert" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="ToolTipSave" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ToolTipUpdate" xml:space="preserve">
+    <value>Правка</value>
+  </data>
+  <data name="MessageDeleteSite" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить эту страницу сайта из списка Web-сервера?');</value>
+  </data>
+  <data name="tsURL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="btDirUp" xml:space="preserve">
+    <value>Вверх...</value>
+    <comment>Move Up...</comment>
+  </data>
+  <data name="lsCurrentDir" xml:space="preserve">
+    <value>Текущий каталог</value>
+  </data>
+  <data name="fbfnLastModified" xml:space="preserve">
+    <value>Последнее изменение</value>
+  </data>
+  <data name="fbfnName" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="fbfnSize" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="btDirClose" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="menuSiteMap" xml:space="preserve">
+    <value>Карта сайтов Web-сервер</value>
+  </data>
+  <data name="tsSite" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="ddlNot" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="ddlRoot" xml:space="preserve">
+    <value>Корневой каталог</value>
+  </data>
+  <data name="ToolTipAddSite" xml:space="preserve">
+    <value>Добавить страницу сайта.</value>
+  </data>
+  <data name="ToolTipAddWeb" xml:space="preserve">
+    <value>Добавить web-сайт.</value>
+  </data>
+  <data name="tsOwner" xml:space="preserve">
+    <value>Владелец ресурса</value>
+  </data>
+  <data name="tsPageProcessor" xml:space="preserve">
+    <value>Отображать загрузку файла</value>
+  </data>
+  <data name="tsParent" xml:space="preserve">
+    <value>Родительское меню</value>
+  </data>
+  <data name="tsProtection" xml:space="preserve">
+    <value>Защита страницы</value>
+  </data>
+  <data name="tsTitle" xml:space="preserve">
+    <value>Наименование меню</value>
+  </data>
+  <data name="ToolTipAddSection" xml:space="preserve">
+    <value>Добавить структурное подразделение</value>
+  </data>
+  <data name="txtGroupAccessSite" xml:space="preserve">
+    <value>Группы доступа сайта</value>
+  </data>
+  <data name="txtUsersSite" xml:space="preserve">
+    <value>Пользователи сайта</value>
+  </data>
+  <data name="ToolTipDown" xml:space="preserve">
+    <value>Опустить вниз</value>
+  </data>
+  <data name="ToolTipUp" xml:space="preserve">
+    <value>Поднять верх</value>
+  </data>
+  <data name="tsRules1" xml:space="preserve">
+    <value>Правила доступа к X</value>
+  </data>
+  <data name="tsRulesSection" xml:space="preserve">
+    <value>Правила доступа к подразделениям</value>
+  </data>
+  <data name="nfBan" xml:space="preserve">
+    <value>Ban</value>
+  </data>
+  <data name="nfChange" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="nfObjectRules" xml:space="preserve">
+    <value>Объект правила</value>
+  </data>
+  <data name="nfView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="nfListRules" xml:space="preserve">
+    <value>Список правил</value>
+  </data>
+  <data name="nfAccess" xml:space="preserve">
+    <value>Доступ</value>
+  </data>
+  <data name="MessageUndoRules" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите вернуть правила по умолчанию?');</value>
+  </data>
+  <data name="ToolTipUndo" xml:space="preserve">
+    <value>Вернуть</value>
+  </data>
+  <data name="ddlSelect" xml:space="preserve">
+    <value>Выбрать...</value>
+  </data>
+  <data name="MessageDeleteSiteMap" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить эту строку карты сайта?');</value>
+  </data>
+  <data name="ToolTipAddGroup" xml:space="preserve">
+    <value>Добавить к группе</value>
+  </data>
+  <data name="ToolTipDelGroup" xml:space="preserve">
+    <value>Удалить из группы</value>
+  </data>
+  <data name="ToolTipGroup" xml:space="preserve">
+    <value>Группы\пользователи</value>
+  </data>
+  <data name="ToolTipSiteMap" xml:space="preserve">
+    <value>Карта сайта</value>
+  </data>
+  <data name="MessageDeleteBigStepProject" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить основной шаг внедрения проекта?');</value>
+  </data>
+  <data name="menuTemplateStepsProject" xml:space="preserve">
+    <value>Шаблоны шагов внедрения проектов</value>
+  </data>
+  <data name="titleMenuProject" xml:space="preserve">
+    <value>Проекты ДАТП</value>
+  </data>
+  <data name="ToolTipAddBigStep" xml:space="preserve">
+    <value>Добавить основной шаг</value>
+  </data>
+  <data name="ToolTipAddTemplate" xml:space="preserve">
+    <value>Добавить шаблон</value>
+  </data>
+  <data name="MessageDeleteStepProject" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить детальный шаг внедрения проекта?');</value>
+  </data>
+  <data name="menuBackup" xml:space="preserve">
+    <value>Утилиты для создания скриптов БД Web-сервера</value>
+  </data>
+  <data name="MessageDeleteTypeProject" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить этот тип проекта?');</value>
+  </data>
+  <data name="menuTypeProject" xml:space="preserve">
+    <value>Список типов проектов</value>
+  </data>
+  <data name="menuMenagerProject" xml:space="preserve">
+    <value>Руководители проектов ДАТП</value>
+  </data>
+  <data name="MPhone" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="WPhone" xml:space="preserve">
+    <value>Рабочий телефон </value>
+  </data>
+  <data name="MessageToArhivProject" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите отправить в архив этот проект?');</value>
+  </data>
+  <data name="ToolTipSkip" xml:space="preserve">
+    <value>Пропустить</value>
+  </data>
+  <data name="MessageSkipStepProject" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите пропустить этот шаг внедрения проекта?');</value>
+  </data>
+  <data name="ToolTipCurrent" xml:space="preserve">
+    <value>Текущая позиция</value>
+  </data>
+  <data name="btClear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="MessageClearStepProject" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите сбросить детальные шаги внедрения проекта?');</value>
+  </data>
+  <data name="MessageCreateStepProject" xml:space="preserve">
+    <value>return confirm('Создать детальные шаги внедрения проекта?');</value>
+  </data>
+  <data name="ToolTipStepClear" xml:space="preserve">
+    <value>Сбросить шаги</value>
+  </data>
+  <data name="ToolTipStepCreate" xml:space="preserve">
+    <value>Создать шаги</value>
+  </data>
+  <data name="MessageDeleteKPI" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить этот KPI?');</value>
+  </data>
+  <data name="ToolTipSelect" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="MessageDeleteKPIProject" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить без возможности восстановить этот KPI проекта?');</value>
+  </data>
+  <data name="MessageDeleteOrder" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить этот документ?');</value>
+  </data>
+  <data name="MessageDeleteTypeOrder" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить этот тип документа?');</value>
+  </data>
+  <data name="MessageDeleteSection" xml:space="preserve">
+    <value>return confirm('Вы уверены, что хотите удалить выбранное структурное подразделение?');</value>
+  </data>
+  <data name="captionSection" xml:space="preserve">
+    <value>Структурное подразделение предприятия</value>
+  </data>
+  <data name="nfSectionFull" xml:space="preserve">
+    <value>Полное название структурного подразделения</value>
+  </data>
+  <data name="nfSectionParent" xml:space="preserve">
+    <value>Основное структурное подразделение</value>
+  </data>
+  <data name="menuSection" xml:space="preserve">
+    <value>Структурные подразделения предприятия.</value>
+  </data>
+  <data name="ddlIndeterminately" xml:space="preserve">
+    <value>Неопределенно</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Департамент</value>
+  </data>
+  <data name="nfTypeSection" xml:space="preserve">
+    <value>Тип подразделения</value>
+  </data>
+  <data name="Not" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>Участок</value>
+  </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Цех</value>
+  </data>
+  <data name="auDistribution" xml:space="preserve">
+    <value>Получать рассылку изменений по сайту</value>
+  </data>
+  <data name="auEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="auName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="auPatronymic" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="auPost" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="auSection" xml:space="preserve">
+    <value>Структурное подразделение</value>
+  </data>
+  <data name="auSurname" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="auUser" xml:space="preserve">
+    <value>Учетная запись</value>
+  </data>
+  <data name="auAccess" xml:space="preserve">
+    <value>Необходим доступ</value>
+  </data>
+  <data name="auAccessWeb" xml:space="preserve">
+    <value>Описание web-сайта</value>
+  </data>
+  <data name="auComent" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="auDateApproval" xml:space="preserve">
+    <value>Запрос  согласован</value>
+  </data>
+  <data name="auDateRequest" xml:space="preserve">
+    <value>Запрос отправлен на согласование</value>
+  </data>
+  <data name="auOwnerWeb" xml:space="preserve">
+    <value>Бизнес владелец ресурса</value>
+  </data>
+  <data name="auSolution" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="SolutionNo" xml:space="preserve">
+    <value>Отказано в доступе</value>
+  </data>
+  <data name="SolutionNull" xml:space="preserve">
+    <value>Заявка обрабатывается</value>
+  </data>
+  <data name="SolutionOwner" xml:space="preserve">
+    <value>На согласовании</value>
+  </data>
+  <data name="SolutionYes" xml:space="preserve">
+    <value>Доступ предоставлен</value>
+  </data>
+  <data name="awHeader1" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="awHeader2" xml:space="preserve">
+    <value>Запрос подан пользователем</value>
+  </data>
+  <data name="awHeader3" xml:space="preserve">
+    <value>Дата изменения запроса пользователем</value>
+  </data>
+  <data name="awHeader4" xml:space="preserve">
+    <value>Дата выполнения запроса администратором</value>
+  </data>
+  <data name="awResult1" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="awResult2" xml:space="preserve">
+    <value>Ваш запрос был направлен администратору:&amp;nbsp;</value>
+  </data>
+  <data name="awResult3" xml:space="preserve">
+    <value>Запрос не был изменен</value>
+  </data>
+  <data name="awTitleStep1" xml:space="preserve">
+    <value>Изменить учетные данные пользователя</value>
+  </data>
+  <data name="awTitleStep2" xml:space="preserve">
+    <value>Изменить доступ к Web-сайтам</value>
+  </data>
+  <data name="awTitleStep3" xml:space="preserve">
+    <value>Отправить запрос администратору</value>
+  </data>
+  <data name="awTitleStep4" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="btFinishStep" xml:space="preserve">
+    <value>Отправить запрос</value>
+  </data>
+  <data name="btNextStep" xml:space="preserve">
+    <value>Следующий шаг</value>
+  </data>
+  <data name="btPreviousStep" xml:space="preserve">
+    <value>Предыдущий шаг</value>
+  </data>
+  <data name="awMessageNotChange" xml:space="preserve">
+    <value>Данные для формирования запроса на доступ небыли обновлены.</value>
+  </data>
+  <data name="awMessgeNotWeb" xml:space="preserve">
+    <value>Выберите web-сайт, к которому необходимо предоставить доступ.</value>
+  </data>
+  <data name="gabtNo" xml:space="preserve">
+    <value>Отказать в доступе</value>
+  </data>
+  <data name="gabtYes" xml:space="preserve">
+    <value>Предоставить доступ</value>
+  </data>
+  <data name="gaComent" xml:space="preserve">
+    <value>Ваш комментарий</value>
+  </data>
+  <data name="gaComent1" xml:space="preserve">
+    <value>(здесь вы можете указать причину отказа, или уточнить к каким отчетам предоставить доступ)</value>
+  </data>
+  <data name="gaEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="gaFIO" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="gaPost" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="gaSection" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="gaTitle" xml:space="preserve">
+    <value>согласуйте заявку на предоставление доступа к Web ресурсу</value>
+  </data>
+  <data name="gaTitleEnd" xml:space="preserve">
+    <value>Запрос был согласован :</value>
+  </data>
+  <data name="menuAccessRequests" xml:space="preserve">
+    <value>Запросы на доступ к Web ресурсам сервера.</value>
+  </data>
+  <data name="arDateAccess" xml:space="preserve">
+    <value>Запрос выполнен</value>
+  </data>
+  <data name="arDateChange" xml:space="preserve">
+    <value>Запрос изменен</value>
+  </data>
+  <data name="arDateCreate" xml:space="preserve">
+    <value>Запрос создан</value>
+  </data>
+  <data name="arEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="arUserEnterprise" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="menuListJobs" xml:space="preserve">
+    <value>Список фоновых задач</value>
+  </data>
+  <data name="lbListJobs" xml:space="preserve">
+    <value>Список задач</value>
+  </data>
+  <data name="lbLogJobs" xml:space="preserve">
+    <value>Лог выполнения задач</value>
+  </data>
+  <data name="ljCron" xml:space="preserve">
+    <value>CRON- расписание</value>
+  </data>
+  <data name="ljDescription" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="ljDistributionList" xml:space="preserve">
+    <value>Списки рассылки</value>
+  </data>
+  <data name="ljEnable" xml:space="preserve">
+    <value>Выполнять</value>
+  </data>
+  <data name="ljMetod" xml:space="preserve">
+    <value>Метод classHangfireJobs</value>
+  </data>
+  <data name="ljRun" xml:space="preserve">
+    <value>Запустить задачу</value>
+  </data>
+  <data name="ljStart" xml:space="preserve">
+    <value>Запущена</value>
+  </data>
+  <data name="ljStop" xml:space="preserve">
+    <value>Выполнена</value>
+  </data>
+  <data name="nfSectionCipher" xml:space="preserve">
+    <value>Шифр</value>
+  </data>
+</root>

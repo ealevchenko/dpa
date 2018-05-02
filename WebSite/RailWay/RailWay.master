@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="RailWay.master.cs" Inherits="WebSite_RailWay_RailWay" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>RailWay</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/rwmaster.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav class="nawrw">
+        <div class="navleft">
+            <a class="navbar-brand" href="Default.aspx#page-top">RailWay</a>
+        </div>
+        <div id="mainmenu" class="menu">
+            <ul>
+                <li><a href="Default.aspx#setup"><asp:Literal ID="ltAdmin" runat="server" Text="<%$ Resources:ResourceRailWay, mmAdmin %>"></asp:Literal></a></li>
+                <li><a href="Default.aspx#instructions"><asp:Literal ID="ltInstructions" runat="server" Text="<%$ Resources:ResourceRailWay, mmInstructions %>"></asp:Literal></a></li>
+                <li><a href="Default.aspx#report"><asp:Literal ID="ltReport" runat="server" Text="<%$ Resources:ResourceRailWay, mmReport %>"></asp:Literal></a></li>
+                <li><a href="Default.aspx#contact"><asp:Literal ID="ltContact" runat="server" Text="<%$ Resources:ResourceRailWay, mmContact %>"></asp:Literal></a></li>
+            </ul>
+            <!-- Конец списка -->
+        </div>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>
+                <asp:Literal ID="ltHeader" runat="server"></asp:Literal></h2>
+            <hr />
+            <p>
+                <asp:Literal ID="ltDescription" runat="server"></asp:Literal></p>
+            <div class="container">
+
+                <form id="form1" runat="server">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+</body>
+</html>

@@ -1,0 +1,298 @@
+﻿.accessUsers {
+    width: 1300px; /* Ширина слоя */
+    margin: 0 auto;
+    /*background-color: #C0C0C0;*/
+}
+
+.wsheader {
+    border-radius: 10px;
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #8fa09b; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+}
+
+    .wsheader table {
+    text-align: center;
+}
+
+.wssidebar {
+    border-radius: 10px;
+    margin-top: 10px; 
+    width: 230px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+}
+    .wssidebar table {
+    /*border: 1px solid #808080;
+    width: auto;
+    color: #000000;
+    border-spacing: 3px;
+    border-radius: 3px;
+    background-color: #F7F6F3;*/ /* border: 4px double #333; Рамка вокруг таблицы */
+    border-collapse: separate; /* Способ отображения границы */ /*width: 100%;  Ширина таблицы */
+    border-spacing: 5px; /* Расстояние между ячейками */
+}
+
+    .wssidebar table td {
+    /* Поля вокруг текста */ /* Граница вокруг ячеек */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #8fa09b;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+        .wssidebar table td a {
+    color: #6A7D78;
+}
+
+.wscontent {
+    border-radius: 10px;
+    margin-left: 250px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона правой колонки */
+}
+
+.wsnavigation {
+    text-align: center;
+}
+
+.wsfooter {
+    border-radius: 10px;
+    background: #8fa09b; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+}
+
+/*tabLayout*/
+.tabLayout td {
+    border: 1px solid #C0C0C0;
+}
+.divBarPlaceholder {
+    border: 1px solid #FF00FF;
+    background-color: #FFFFFF;
+}
+/*tabHeader*/
+table.tabHeader  {
+    /*border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;*/
+    font-family: 'Arial Narrow';
+    width: auto;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.tabHeader th {
+    padding: 5px 10px 5px 5px; /*border: 1px solid #999999;*/
+    color: #FFFFFF;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: left;
+    text-transform: uppercase; /*background-color: #F7F6F3;*/
+    width: 200px;
+}
+.tabHeader td {
+    padding: 5px; /*border: 1px solid #999999;*/
+    color: #FFFFFF;
+    text-align: left; /*background-color: #FFFFFF;*/ /*width: 200px;*/
+}
+/*InsertAccessUsers*/
+table.InsertAccessUsers, table.SelectAccessUsers, table.UpdateAccessUsers {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.InsertAccessUsers th, .SelectAccessUsers th, .UpdateAccessUsers th {
+    padding: 5px 10px 5px 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: right;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+    width: 200px;
+}
+.InsertAccessUsers td, .SelectAccessUsers td, .UpdateAccessUsers td{
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: left;
+    background-color: #FFFFFF;
+    width: 300px;
+}
+.LineText {
+    width: 95%;
+}
+.LineTextNotNull {
+    width: 95%;
+}
+.MultiText {
+    width: 95%;
+    height: 50px;
+}
+.MultiTextNotNull {
+    width: 95%;
+    height: 50px;
+}
+.failure {
+    /*font-size: 1.2em;*/
+    color: Red;
+}
+
+input, textarea, select {
+    color: #4E4E4E;
+}
+
+input.LineTextNotNull {
+    border: 1px solid #FF0000;
+}
+
+textarea.MultiTextNotNull {
+    border: 1px solid #FF0000;
+}
+
+select.LineTextNotNull {
+    border: 1px solid #FF0000;
+}
+
+/*tabAccessWeb*/
+table.tabAccessWeb {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: auto;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.tabAccessWeb th {
+    padding: 5px 10px 5px 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabAccessWeb td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.tabAccessWeb td a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+.tabAccessWeb th.access {
+    width: 50px;
+}
+.tabAccessWeb td.access {
+    text-align: center;
+}
+.tabAccessWeb th.accessweb {
+    width: 300px;
+}
+.tabAccessWeb td.accessweb {
+    text-align: left;
+    font-style: italic;
+}
+.tabAccessWeb th.ownerweb {
+    width: 200px;
+}
+.tabAccessWeb td.ownerweb {
+    text-align: left;
+}
+.tabAccessWeb th.daterequest {
+    width: 100px;
+}
+.tabAccessWeb td.daterequest {
+    text-align: center;
+}
+.tabAccessWeb th.dateapproval {
+    width: 100px;
+}
+.tabAccessWeb td.dateapproval {
+    text-align: center;
+}
+.tabAccessWeb th.solution {
+    width: 100px;
+}
+.tabAccessWeb td.solution {
+    text-align: center;
+}
+.tabAccessWeb th.coment {
+    width: 200px;
+}
+.tabAccessWeb td.coment {
+        text-align: left;
+    font-style: italic;
+}
+/*tabTotal*/
+table.tabTotal  {
+    /*border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;*/
+    font-family: 'Arial Narrow';
+    width: 600px;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.tabTotal th {
+    padding: 5px 10px 5px 5px;
+    /*border: 1px solid #999999;*/
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: right;
+    text-transform: uppercase;
+    /*background-color: #F7F6F3;*/
+    width: 200px;
+}
+.tabTotal td{
+    padding: 5px;
+    /*border: 1px solid #999999;*/
+    color: #000000;
+    text-align: left;
+    /*background-color: #FFFFFF;*/
+    width: 400px;
+}
+.new {
+    color: #009933;
+    text-decoration: none;
+    text-transform: none;
+    font-variant: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+.change {
+    color: #FF6666;
+    text-decoration: line-through;
+}
+
+/*divResult*/
+.divResult {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    text-transform: uppercase;
+    padding: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #52615C;
+}

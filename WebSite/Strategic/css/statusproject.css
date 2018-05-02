@@ -1,0 +1,121 @@
+﻿
+.SelectStatus {
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+}
+
+    .SelectStatus select {
+    font-family: Georgia, 'Times New Roman' , Times, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.yes {
+        color: green
+    }
+
+.no {
+        color: red
+    }
+/*tabListProject*/
+table.tabListProject {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: auto;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.tabListProject th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.tabListProject th a {
+    color: #0000FF;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.tabListProject td a
+{
+    color: #0000FF;
+}
+.tabListProject td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.tabListProject th.sapcode {
+    width: 100px;
+}
+.tabListProject th.funding {
+    width: 100px;
+}
+.tabListProject th.name {
+    width: 400px;
+}
+.tabListProject th.type {
+    width: 150px;
+}
+.tabListProject th.typestatus {
+    width: 100px;
+}
+.tabListProject th.menager {
+    width: 200px;
+}
+/*.tabListProject th.persentrun {
+    width: 100px;
+}*/
+.tabListProject td.sapcode {
+    text-align: center;
+}
+.tabListProject td.funding {
+    text-align: right;
+}
+.tabListProject td.name {
+    text-align: left;
+}
+.tabListProject td.type {
+    text-align: left;
+}
+.tabListProject td.typestatus {
+    text-align: center;
+}
+.tabListProject td.menager {
+    text-align: left;
+}
+.tabListProject td.detali {
+    text-align: left;
+}
+/*.tabListProject td.persentrun {
+    text-align: center;
+}*/
+
+table.tabListProject tr.select td, table.tabListProject tr.select td a {
+    background-color: #808080;
+    color: #FFFFFF;
+}
+
+table.tabListProject tr.Study td, table.tabListProject tr.Study td a {
+    background-color: #FFE4CA;
+    color: #333333;
+}
+table.tabListProject tr.Run td, table.tabListProject tr.Run td a {
+    background-color: #BFFFEF;
+    color: #333333;
+}
+table.tabListProject tr.Closed td, table.tabListProject tr.Closed td a {
+    background-color: #C4C4FF;
+    color: #333333;
+}

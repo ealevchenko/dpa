@@ -1,0 +1,47 @@
+﻿
+/* Стили таблицы tabSite*/
+table.List {
+    border: 1px solid #999999;
+    color: #000000;
+    border-radius: 3px;
+    background-color: #F7F6F3;
+    font-family: 'Arial Narrow';
+    width: 600px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.List th {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #5B5B5B;
+    font-weight: bold;
+    word-wrap: hyphenate;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F7F6F3;
+}
+.List td {
+    padding: 5px;
+    border: 1px solid #999999;
+    color: #000000;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.List th.title {
+    width: 300px;
+}
+.List th.path {
+    width: 250px;
+}
+.List th.button {
+    width: 50px;
+}
+.List td.title {
+    text-align: left;
+    font-style: italic;
+}
+.List td.path {
+    text-align: left;
+}
+
+
